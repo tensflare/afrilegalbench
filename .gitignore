@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.env
+*.egg-info/
+dist/
+build/
+.notebook_checkpoints/
+data/raw/*
+!data/raw/.gitkeep
+venv/
+.venv/

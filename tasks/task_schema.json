@@ -1,0 +1,76 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "malawi-bench Task",
+  "description": "A single task definition for the malawi-bench African Legal AI Benchmark, compatible with LegalBench format.",
+  "type": "object",
+  "required": ["task_name", "jurisdiction", "legal_system", "reasoning_type", "languages", "dataset"],
+  "properties": {
+    "task_name": {
+      "type": "string",
+      "description": "Unique identifier for the task, e.g. 'nigeria-customary-inheritance'"
+    },
+    "jurisdiction": {
+      "type": "string",
+      "enum": ["nigeria", "south_africa", "kenya"],
+      "description": "Primary jurisdiction"
+    },
+    "legal_system": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": ["common_law", "customary_law", "sharia_law", "roman_dutch_law"]
+      },
+      "minItems": 1,
+      "description": "Legal systems involved in this task"
+    },
+    "reasoning_type": {
+      "type": "string",
+      "enum": [
+        "issue_identification",
+        "rule_application",
+        "rule_interpretation",
+        "factual_evidence_analysis",
+        "analogical_reasoning",
+        "rhetorical_analysis",
+        "customary_law_reasoning",
+        "multijurisdictional_citation",
+        "multilingual_retrieval",
+        "legal_system_identification"
+      ],
+      "description": "Category of legal reasoning required"
+    },
+    "languages": {
+      "type": "array",
+      "items": { "type": "string" },
+      "minItems": 1,
+      "description": "Languages used in this task (e.g. ['en'], ['en', 'sw'])"
+    },
+    "dataset": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "input", "target"],
+        "properties": {
+          "id": {
+            "type": "string",
+            "description": "Unique example identifier, e.g. 'ng-custom-001'"
+          },
+          "input": {
+            "type": "string",
+            "description": "The question, fact pattern, or query presented to the model"
+          },
+          "target": {
+            "type": "string",
+            "description": "The correct answer or expected output"
+          },
+          "source": {
+            "type": "string",
+            "description": "Citation to source document (statute, case law, etc.)"
+          }
+        }
+      },
+      "minItems": 1,
+      "description": "The set of input-output pairs for this task"
+    }
+  }
+}

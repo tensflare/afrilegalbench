@@ -1,0 +1,4 @@
+This directory will contain task definition JSON files, one per task.
+
+Naming convention: {jurisdiction}-{category}-{number}.json
+Example: nigeria-statute-interpretation-001.json
