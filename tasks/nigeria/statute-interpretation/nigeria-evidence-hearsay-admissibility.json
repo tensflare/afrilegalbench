@@ -1,0 +1,33 @@
+{
+  "task_name": "nigeria-evidence-hearsay-admissibility",
+  "jurisdiction": "nigeria",
+  "legal_system": ["common_law"],
+  "reasoning_type": "rule_application",
+  "languages": ["en"],
+  "dataset": [
+    {
+      "id": "ng-evidence-001",
+      "input": "In a criminal trial for armed robbery, the prosecution seeks to tender a statement made by the deceased victim to a police officer two hours before death, identifying the defendant as the attacker. The statement is offered as proof of the identity of the attacker. The defendant objects on grounds of hearsay. Is the statement admissible under the Evidence Act 2011?",
+      "target": "Yes, the statement is admissible as a dying declaration under section 37 of the Evidence Act 2011, which provides that statements made by a person who is dead are admissible as to the cause of death or circumstances of the transaction resulting in death, provided the declarant was in settled expectation of death at the time of making the statement.",
+      "source": "Evidence Act 2011, s. 37(1)"
+    },
+    {
+      "id": "ng-evidence-002",
+      "input": "A plaintiff in a civil suit for breach of contract seeks to introduce a letter written by the defendant's late business partner to a third party, stating that the defendant had admitted to breaching the contract. The defendant objects that the letter is hearsay and not covered by any exception. Is the letter admissible?",
+      "target": "No. The letter is hearsay and does not fall within any exception under the Evidence Act 2011. It is not a dying declaration (section 37) as it does not relate to the cause of death. It is not a statement made in the course of business (section 39) as it was not made in the ordinary course of business. It is not an admission against the declarant's interest (section 38) as the statement was about the defendant's conduct, not the declarant's own conduct. The letter is inadmissible hearsay.",
+      "source": "Evidence Act 2011, ss. 37-39"
+    },
+    {
+      "id": "ng-evidence-003",
+      "input": "During a civil trial, counsel seeks to cross-examine a witness about a previous statement the witness made to the police that contradicts their current testimony. The statement was reduced to writing and signed by the witness. Must the writing be shown to the witness before the cross-examination can proceed?",
+      "target": "Yes. Section 231(1) of the Evidence Act 2011 provides that a witness may be cross-examined as to previous statements made by them in writing and relevant to matters in question, but if it is intended to contradict the witness by the writing, the witness's attention must, before the writing can be proved, be called to those parts of it which are to be used for the purpose of contradicting them.",
+      "source": "Evidence Act 2011, s. 231(1)"
+    },
+    {
+      "id": "ng-evidence-004",
+      "input": "In a land dispute trial, a party seeks to introduce a certified true copy of a deed of assignment from the Lands Registry, without producing the original. The other party objects, invoking the best evidence rule. Is the certified copy admissible?",
+      "target": "Yes. Section 89 of the Evidence Act 2011 provides that certified copies of public documents may be given in evidence. A deed of assignment registered at the Lands Registry is a public document, and a certified copy thereof is admissible as secondary evidence under section 90 of the Act.",
+      "source": "Evidence Act 2011, ss. 89, 90"
+    }
+  ]
+}

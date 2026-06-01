@@ -1,0 +1,27 @@
+{
+  "task_name": "nigeria-criminal-code-theft",
+  "jurisdiction": "nigeria",
+  "legal_system": ["common_law"],
+  "reasoning_type": "rule_application",
+  "languages": ["en"],
+  "dataset": [
+    {
+      "id": "ng-criminal-001",
+      "input": "A mechanic takes a customer's car without permission to run a personal errand and returns it two hours later, undamaged. The owner discovers the incident and reports it as theft. Under the Criminal Code Act (applicable in southern Nigeria), has the mechanic committed stealing?",
+      "target": "No. Under section 383 of the Criminal Code Act, stealing requires a 'fraudulent taking' — that is, an intention to permanently deprive the owner of the thing. The mere taking and using of property temporarily (known as 'joyriding') without intent to permanently deprive the owner does not constitute stealing under the Criminal Code. However, the mechanic may be liable for the lesser offence of 'unauthorized use of a motor vehicle' under the Road Traffic Act or other applicable legislation.",
+      "source": "Criminal Code Act, s. 383"
+    },
+    {
+      "id": "ng-criminal-002",
+      "input": "A security guard employed by a company opens the company safe using his assigned key, takes N100,000, and places it in his own pocket. He is caught immediately on CCTV. He claims he intended to borrow the money and return it before anyone noticed. Under the Criminal Code Act, has he committed stealing?",
+      "target": "Yes. Section 383(2)(c) of the Criminal Code Act provides that a person who takes property without the owner's consent and who, at the time of taking, intends to treat the property as their own to deal with regardless of the owner's rights, commits stealing. The intention to later return the property does not negate the fraudulent intent at the time of taking, as the taking is done without consent and with the intention of dealing with the property regardless of the owner's rights. Section 386 also provides that a person may be guilty of stealing notwithstanding that they intended to later restore the property.",
+      "source": "Criminal Code Act, ss. 383(2)(c), 386"
+    },
+    {
+      "id": "ng-criminal-003",
+      "input": "A bank cashier mistakenly pays a customer N500,000 instead of N50,000. The customer notices the overpayment, says nothing, takes the money, and leaves. The bank later demands repayment. Has the customer committed any criminal offence under Nigerian law?",
+      "target": "Yes. The customer has committed stealing under section 383 of the Criminal Code Act. The property was 'capable of being stolen' and the customer's act of taking and keeping the money with knowledge of the mistake constitutes a 'fraudulent taking' or 'conversion' within the meaning of the Act. Although the money was voluntarily handed over by the cashier, it was handed over by mistake, and the customer's knowledge of the mistake and failure to return it amounts to a fraudulent conversion. The customer may also be liable for the offence of 'obtaining property by false pretences' or 'fraudulent conversion' under sections 418 or 420 of the Criminal Code.",
+      "source": "Criminal Code Act, ss. 383, 418, 420"
+    }
+  ]
+}

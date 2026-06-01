@@ -1,0 +1,27 @@
+{
+  "task_name": "nigeria-land-use-act-governors-consent",
+  "jurisdiction": "nigeria",
+  "legal_system": ["common_law"],
+  "reasoning_type": "rule_application",
+  "languages": ["en"],
+  "dataset": [
+    {
+      "id": "ng-land-001",
+      "input": "A holds a statutory right of occupancy over a plot of land in Lagos. A signs a deed of assignment transferring the land to B for N50 million. The deed is executed, consideration paid, and possession delivered to B. However, the consent of the Governor of Lagos State was never obtained. B later discovers the lack of consent. What is the legal status of the transaction under the Land Use Act?",
+      "target": "The transaction is null and void. Section 22 of the Land Use Act provides that it shall not be lawful for the holder of a statutory right of occupancy to alienate it by assignment, mortgage, transfer of possession, sublease, or otherwise howsoever without the consent of the Governor first had and obtained. Section 26 renders any transaction or instrument that purports to confer any interest in land otherwise than in accordance with the Act null and void. The Supreme Court affirmed this position in Savannah Bank (Nig) Plc v Ajilo (1989) 1 NWLR (Pt 97) 305.",
+      "source": "Land Use Act, ss. 22(1), 26; Savannah Bank v Ajilo (1989) 1 NWLR (Pt 97) 305"
+    },
+    {
+      "id": "ng-land-002",
+      "input": "A holds a statutory right of occupancy and signs an agreement to sell the land to B. The agreement expressly states it is 'subject to the consent of the Governor.' Before the consent is obtained, A changes their mind and refuses to proceed, arguing that the agreement is void under section 22 of the Land Use Act. Is A correct?",
+      "target": "No. The Supreme Court held in Ilori v Ishola (2018) 15 NWLR (Pt 1641) 77 that section 22(1) does not prohibit the holder of a statutory right of occupancy from entering into negotiations that end with a written agreement for presentation to the Governor for consent, so long as the agreement is understood and entered into 'subject to the consent of the Governor.' The agreement is not void but inchoate — it becomes complete and fully effective once consent is obtained.",
+      "source": "Land Use Act, s. 22(1); Ilori v Ishola (2018) 15 NWLR (Pt 1641) 77"
+    },
+    {
+      "id": "ng-land-003",
+      "input": "The Governor of a state delegates the power to grant consent for land transactions under the Land Use Act to the Commissioner for Lands. The Commissioner, being unavailable, delegates this task to an Acting Chief Lands Officer in the Ministry, who signs a letter granting consent for a mortgage transaction. Is the mortgage valid?",
+      "target": "No. The Supreme Court held in UBN Plc v Ayodare & Sons (Nig) Ltd (2007) 13 NWLR (Pt 1052) 567 that the letter of approval for consent under section 22 must be written and signed by the Commissioner for Lands as the Governor's delegate under section 45(1), not a mere officer of the ministry. The exercise of such authority by an Acting Chief Lands Officer was inappropriate and negatively affected the validity of the mortgage.",
+      "source": "Land Use Act, ss. 22, 45(1); UBN Plc v Ayodare & Sons (Nig) Ltd (2007) 13 NWLR (Pt 1052) 567"
+    }
+  ]
+}

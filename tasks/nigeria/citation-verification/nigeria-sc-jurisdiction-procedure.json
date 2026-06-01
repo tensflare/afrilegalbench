@@ -1,0 +1,27 @@
+{
+  "task_name": "nigeria-sc-jurisdiction-procedure",
+  "jurisdiction": "nigeria",
+  "legal_system": ["common_law"],
+  "reasoning_type": "analogical_reasoning",
+  "languages": ["en"],
+  "dataset": [
+    {
+      "id": "ng-cite-013",
+      "input": "Does the case of Ladoja v INEC (2007) 12 NWLR (Pt 1047) 119 stand for the proposition that a governor cannot be validly impeached unless the procedural requirements set out in section 188 of the Constitution are strictly complied with?",
+      "target": "Yes. In Ladoja v INEC (2007) 12 NWLR (Pt 1047) 119, the Supreme Court of Nigeria held that the impeachment of a state governor is a quasi-judicial process and that strict compliance with the procedural requirements of section 188 of the 1999 Constitution is mandatory. The Court nullified the purported impeachment of Governor Rashidi Ladoja of Oyo State because the procedural steps had not been strictly followed. Specifically, the Court found that the notice of allegations was not served on the governor as required, and the required investigation was not properly conducted. The Court restored Ladoja as governor. This case is the leading authority on gubernatorial impeachment in Nigeria.",
+      "source": "Ladoja v INEC (2007) 12 NWLR (Pt 1047) 119"
+    },
+    {
+      "id": "ng-cite-014",
+      "input": "Does the Supreme Court case of SPDC v Chief Otoko (2011) stand for the proposition that where a state High Court and the Federal High Court have concurrent jurisdiction, the Plaintiff has the right to choose which court to commence the action in, and the chosen court has jurisdiction to entertain the suit?",
+      "target": "No. The citation 'SPDC v Chief Otoko (2011)' is incomplete — the volume and page of the law report are not provided, making it impossible to verify. The proposition about concurrent jurisdiction is, however, a well-established principle of Nigerian law. The Supreme Court has held in various cases (such as Amaechi v INEC and Tukur v Government of Gongola State) that where two courts have concurrent jurisdiction, the plaintiff has the right to choose the forum. Once the plaintiff chooses, the chosen court cannot divest itself of jurisdiction simply because another court could also have heard the matter. However, this proposition cannot confidently be attributed to 'SPDC v Chief Otoko (2011)' without a complete citation.",
+      "source": "Incomplete citation; general Nigerian law on concurrent jurisdiction"
+    },
+    {
+      "id": "ng-cite-015",
+      "input": "Does the case of Ojukwu v Military Governor of Lagos State (1985) 2 NWLR (Pt 10) 806 stand for the proposition that the court has inherent jurisdiction to set aside its own judgment obtained by fraud or without jurisdiction?",
+      "target": "Yes. In Ojukwu v Military Governor of Lagos State (1985) 2 NWLR (Pt 10) 806, the Supreme Court of Nigeria (per Obaseki JSC and others) affirmed the inherent jurisdiction of the court to set aside its own judgment where the judgment was obtained by fraud or where the court lacked jurisdiction. The Court also established that a court order must be obeyed even if it is subsequently set aside, and that a party who disobeys a court order cannot be heard until they purge their contempt. However, the primary holding on setting aside judgments is also found in related decisions. The Court's jurisdiction to set aside judgments for fraud or jurisdictional defect is a fundamental attribute of a court of record and is not dependent on any statutory provision.",
+      "source": "Ojukwu v Military Governor of Lagos State (1985) 2 NWLR (Pt 10) 806"
+    }
+  ]
+}

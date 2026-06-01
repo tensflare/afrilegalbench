@@ -1,0 +1,27 @@
+{
+  "task_name": "nigeria-evidence-burden-proof",
+  "jurisdiction": "nigeria",
+  "legal_system": ["common_law"],
+  "reasoning_type": "rule_application",
+  "languages": ["en"],
+  "dataset": [
+    {
+      "id": "ng-burden-001",
+      "input": "In a criminal trial for murder, the prosecution has presented evidence that the defendant was seen at the scene of the crime with a weapon. The defendant does not call any witnesses. At the close of evidence, the defendant's counsel submits that the prosecution has not proven its case beyond reasonable doubt. How should the court direct itself on the burden of proof?",
+      "target": "The court must direct itself that the burden of proof lies on the prosecution throughout and never shifts to the defence. Under section 135(1) of the Evidence Act 2011, whoever desires any court to give judgment as to any legal right or liability dependent on the existence of facts which he asserts must prove that those facts exist. Section 135(2) specifically provides that in criminal cases, the burden of proving every fact necessary to establish guilt is on the prosecution, and the standard is proof beyond reasonable doubt. The defendant's failure to call witnesses does not shift the burden or fill gaps in the prosecution's case — the court must acquit if the prosecution has not met its burden.",
+      "source": "Evidence Act 2011, s. 135(1), (2)"
+    },
+    {
+      "id": "ng-burden-002",
+      "input": "A defendant is charged with possession of stolen property. The prosecution proves that recently stolen goods were found in the defendant's possession. The defendant claims he bought them in good faith from a third party. Who bears the burden of proving the defendant's knowledge that the goods were stolen?",
+      "target": "The legal burden remains on the prosecution to prove that the defendant knew or had reason to believe the goods were stolen. However, a reverse evidential burden applies: under section 137(1) of the Evidence Act 2011, if the prosecution proves recent possession of stolen goods, the court may presume that the person in possession either stole them or received them knowing they were stolen. This presumption shifts the evidential burden to the defendant to offer a reasonable explanation. If the defendant provides an explanation that could reasonably be true (such as the good faith purchase), the prosecution must then disprove it beyond reasonable doubt. The ultimate legal burden stays with the prosecution throughout.",
+      "source": "Evidence Act 2011, s. 137(1)"
+    },
+    {
+      "id": "ng-burden-003",
+      "input": "In a civil claim for negligence arising from a road traffic accident, the plaintiff proves that the defendant drove through a red light and collided with the plaintiff's vehicle. The defendant admits running the red light but claims the brakes failed unexpectedly. Who bears the burden of proving the brake failure?",
+      "target": "The plaintiff bears the initial burden of proving negligence on a balance of probabilities (section 135(1), Evidence Act 2011). Once the plaintiff proves the defendant ran a red light, this establishes a prima facie case of negligence. If the defendant wishes to avoid liability by relying on a defence (such as sudden brake failure beyond their control), the defendant bears the legal burden of proving that defence on a balance of probabilities, per section 136 of the Evidence Act, which provides that the burden of proof as to any particular fact lies on the person who wishes the court to believe in its existence.",
+      "source": "Evidence Act 2011, ss. 135(1), 136"
+    }
+  ]
+}

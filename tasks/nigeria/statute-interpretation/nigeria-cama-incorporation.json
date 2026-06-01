@@ -1,0 +1,27 @@
+{
+  "task_name": "nigeria-cama-incorporation",
+  "jurisdiction": "nigeria",
+  "legal_system": ["common_law"],
+  "reasoning_type": "rule_interpretation",
+  "languages": ["en"],
+  "dataset": [
+    {
+      "id": "ng-cama-incorp-001",
+      "input": "Two individuals wish to incorporate a private company limited by shares in Nigeria. They have drafted a memorandum of association but are unsure what the minimum issued share capital must be and how many shareholders are required under CAMA 2020. What are the requirements?",
+      "target": "Under CAMA 2020, a private company requires a minimum issued share capital of at least N100,000 (section 27(2)(a)). Regarding membership, section 18(2) now recognizes a single member/shareholder for the incorporation of a private company, replacing the former requirement of at least two persons. Additionally, a private company is limited to a maximum of 50 members (section 22(1)). The memorandum must also state the company's name, whether the liability of members is limited, and the company's objects.",
+      "source": "CAMA 2020, ss. 18(2), 22(1), 27(2)(a)"
+    },
+    {
+      "id": "ng-cama-incorp-002",
+      "input": "A group of 25 professionals wish to form a business association. They are concerned about personal liability for business debts. They would also like the flexibility of the entity's income being taxed only at the individual level, not the entity level. What type of business structure under CAMA 2020 best suits their needs?",
+      "target": "A Limited Liability Partnership (LLP) under Part C of CAMA 2020 would best suit their needs. An LLP provides separate legal personality with limited liability for partners (section 582), while typically being treated as a pass-through entity for tax purposes (income is taxed at the partner level, not the LLP level). However, note that if they number 25 or more, they cannot form a partnership governed by the Partnership Law and must incorporate under CAMA. Section 19(1) provides that no partnership consisting of more than 20 persons shall be formed for the purpose of carrying on any business for gain unless registered as a company under CAMA or as an LLP. An LLP does not have a maximum membership cap.",
+      "source": "CAMA 2020, ss. 19(1), 582"
+    },
+    {
+      "id": "ng-cama-incorp-003",
+      "input": "A company wishes to change its name from 'ABC Enterprises Limited' to 'ABC Global Solutions Limited'. The board passes a resolution to this effect. Is a board resolution sufficient, and what additional procedural steps are required under CAMA 2020?",
+      "target": "No, a board resolution alone is insufficient. Under section 33(1) of CAMA 2020, a company may change its name by special resolution of the members (75% majority of votes cast). Section 33(2) provides that the company must then apply to the Corporate Affairs Commission (CAC) for approval of the change. Upon approval, the CAC will issue a certificate of incorporation on change of name. The change is effective only from the date of the certificate. A board resolution can recommend the change, but it must be approved by members through a special resolution at a general meeting before application to the CAC.",
+      "source": "CAMA 2020, s. 33(1), (2)"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "task_name": "nigeria-sc-customary-family-law",
+  "jurisdiction": "nigeria",
+  "legal_system": ["common_law", "customary_law"],
+  "reasoning_type": "analogical_reasoning",
+  "languages": ["en"],
+  "dataset": [
+    {
+      "id": "ng-cite-007",
+      "input": "Does Ukeje v Ukeje (2014) 11 NWLR (Pt 1418) 384 stand for the proposition that a female child is entitled to inherit from her father's estate under Igbo customary law?",
+      "target": "Yes. In Ukeje v Ukeje (2014) 11 NWLR (Pt 1418) 384, the Supreme Court of Nigeria held that the Igbo customary law that disinherits female children from their father's estate is void as it conflicts with section 42 of the Constitution, which prohibits discrimination on the grounds of sex. The Court declared that a female child is entitled to inherit from her father's estate equally with male children. This landmark decision struck down the discriminatory customary law rule that had previously excluded female children from inheritance in many Igbo communities. The case is binding authority throughout Nigeria.",
+      "source": "Ukeje v Ukeje (2014) 11 NWLR (Pt 1418) 384"
+    },
+    {
+      "id": "ng-cite-008",
+      "input": "Does the case of Anekwe v Nweke stand for the proposition that a customary marriage is valid even if the bride price (dowry) has not been fully paid, as long as there is acceptance of the marriage by both families?",
+      "target": "No. The proposition is partially correct but cites a non-existent case name. The Supreme Court case that addressed the validity of customary marriage and bride price is Ogunleye v Ogunleye or related family law cases. Anekwe v Nweke is not a known Supreme Court decision on this point. The courts have held that there is no universal customary law requirement that bride price be fully paid before a marriage is valid — different customs apply in different communities. The correct position under Nigerian law is that the validity of a customary marriage depends on the particular customs of the people involved, and courts have held that the essential requirement is the consent of both families and the formal handover of the bride, not necessarily the full payment of bride price. However, this proposition cannot be attributed to 'Anekwe v Nweke.'",
+      "source": "This case citation does not correspond to a known Supreme Court decision on this point"
+    },
+    {
+      "id": "ng-cite-009",
+      "input": "Does the case of Ogiamien v Ogiamien (1967) NMLR 245 stand for the proposition that Bini customary law of primogeniture, under which the eldest son inherits the entire estate to the exclusion of other children, is a valid custom binding on all Bini people?",
+      "target": "No. The proposition relies on a decision that predates the 1999 Constitution. While Ogiamien v Ogiamien did recognize the Bini custom of primogeniture, that recognition is implicitly overruled or at least superseded by the Supreme Court's decision in Ukeje v Ukeje (2014) 11 NWLR (Pt 1418) 384, which held that any customary law that discriminates on grounds of sex is void as contrary to section 42 of the 1999 Constitution. The Bini primogeniture rule was specifically affected because it discriminated against female and younger male children. However, note that the conflicts between legal systems in Nigeria mean that customary law continues to evolve through judicial decisions and constitutional interpretation.",
+      "source": "Ogiamien v Ogiamien (1967) NMLR 245; Ukeje v Ukeje (2014) 11 NWLR (Pt 1418) 384"
+    }
+  ]
+}

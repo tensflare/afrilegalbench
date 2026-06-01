@@ -1,0 +1,27 @@
+{
+  "task_name": "nigeria-cama-directors-duties",
+  "jurisdiction": "nigeria",
+  "legal_system": ["common_law"],
+  "reasoning_type": "rule_interpretation",
+  "languages": ["en"],
+  "dataset": [
+    {
+      "id": "ng-cama-001",
+      "input": "A director of a Nigerian company approves a contract between the company and another entity in which the director holds a 40% shareholding, without disclosing their interest to the board. The contract is on commercial terms. Has the director breached any duty under CAMA 2020?",
+      "target": "Yes. Section 283 of CAMA 2020 requires a director who is directly or indirectly interested in a contract or proposed contract with the company to declare the nature of their interest at a meeting of the directors. Failure to do so is a breach of statutory duty, regardless of whether the contract is on commercial terms. The contract may be voidable at the instance of the company.",
+      "source": "CAMA 2020, s. 283"
+    },
+    {
+      "id": "ng-cama-002",
+      "input": "The managing director of a Nigerian company uses company funds to purchase a luxury vehicle registered in their personal name, without board approval. The company's articles of association do not address this scenario. The company later sues the director for breach of duty. Under what legal basis can the director be held liable?",
+      "target": "The director can be held liable for breach of fiduciary duty. Section 279 of CAMA 2020 codifies a director's fiduciary duties, including the duty to act in good faith in the best interests of the company and to avoid conflicts of interest. Using company funds for personal benefit without authorization constitutes a breach of the duty to act in the company's best interests and amounts to conversion of corporate assets. The director must account to the company for all profits made and may be required to restore the property or pay compensation.",
+      "source": "CAMA 2020, ss. 279, 280"
+    },
+    {
+      "id": "ng-cama-003",
+      "input": "A public company in Nigeria wishes to appoint independent directors to its board. What is the minimum number of independent directors required under CAMA 2020, and what is the key criterion for independence relating to shareholding?",
+      "target": "Section 275 of CAMA 2020 requires public companies to appoint a minimum of three independent directors. An independent director must not own, directly or indirectly, more than 30% of the shares of the company. Additionally, an independent director must not have been an employee of the company in the preceding two years and must not have made or received payments exceeding N20 million from the company.",
+      "source": "CAMA 2020, s. 275"
+    }
+  ]
+}

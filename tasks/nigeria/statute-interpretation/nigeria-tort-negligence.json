@@ -1,0 +1,27 @@
+{
+  "task_name": "nigeria-tort-negligence",
+  "jurisdiction": "nigeria",
+  "legal_system": ["common_law"],
+  "reasoning_type": "rule_application",
+  "languages": ["en"],
+  "dataset": [
+    {
+      "id": "ng-tort-001",
+      "input": "A customer enters a supermarket where the floor had been mopped 10 minutes earlier. The supermarket placed no warning sign near the wet area. The customer slips and fractures their leg. The supermarket argues it had no actual knowledge of the danger because the mopping was done by a cleaner who did not report leaving the area wet. Is the supermarket liable in negligence?",
+      "target": "Yes, the supermarket is liable. Under Nigerian common law, an occupier owes a duty of care to lawful visitors to ensure the premises are reasonably safe. The supermarket, through its employee, created the hazard by mopping the floor. The absence of a warning sign is a breach of the duty of care. The fact that the cleaner did not report the condition is irrelevant — the employer is vicariously liable for the acts of employees in the course of employment (employers' vicarious liability is well established in Nigerian tort law). The injury was foreseeable as a direct consequence of the wet floor without warning. This follows the principles in Donoghue v Stevenson [1932] AC 562, as applied in Nigerian courts.",
+      "source": "Donoghue v Stevenson [1932] AC 562"
+    },
+    {
+      "id": "ng-tort-002",
+      "input": "A doctor at a public hospital in Lagos performs a surgical procedure on a patient. During the surgery, the doctor leaves a surgical swab inside the patient's abdomen. The patient later develops severe complications requiring additional surgery to remove the swab. The patient sues the doctor for negligence. The doctor argues that the hospital was overcrowded and understaffed. Is the doctor liable?",
+      "target": "Yes, the doctor is liable. The doctrine of res ipsa loquitur ('the thing speaks for itself') applies — a surgical swab is not left inside a patient's body in the absence of negligence. The fact that a swab was left behind is prima facie evidence of negligence, and the burden shifts to the doctor to rebut it. The overcrowding and understaffing of the hospital do not excuse the doctor's duty to exercise reasonable care and skill in performing the surgery. Under Nigerian medical negligence law, a surgeon has a duty to ensure no instruments or materials are left inside a patient after surgery, including following proper swab count procedures. The hospital may be jointly and severally liable as employer.",
+      "source": "Res ipsa loquitur (Nigerian common law)"
+    },
+    {
+      "id": "ng-tort-003",
+      "input": "A newspaper publishes an article stating that a prominent businessman has been indicted for fraud by the Economic and Financial Crimes Commission (EFCC). The businessman was never indicted, and the EFCC confirms this. The newspaper relied on an anonymous tip. The businessman sues for defamation. What defences, if any, are available to the newspaper?",
+      "target": "The newspaper's available defences are limited. Under Nigerian defamation law, the defences include: (a) justification/truth — not available here since the allegation is false; (b) fair comment on a matter of public interest — this requires that the comment be based on true facts and be an expression of opinion, not a false statement of fact as here; (c) qualified privilege — reporting public proceedings is privileged, but publishing an anonymous tip without verification is not; (d) publication in the public interest — this is not a standalone defence in Nigeria. The newspaper is likely liable for libel. Damages in Nigerian defamation cases may be substantial, particularly where injury to professional reputation is established.",
+      "source": "Nigerian common law of defamation"
+    }
+  ]
+}

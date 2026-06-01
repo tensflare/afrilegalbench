@@ -1,0 +1,27 @@
+{
+  "task_name": "nigeria-sc-constitutional-law",
+  "jurisdiction": "nigeria",
+  "legal_system": ["common_law"],
+  "reasoning_type": "analogical_reasoning",
+  "languages": ["en"],
+  "dataset": [
+    {
+      "id": "ng-cite-004",
+      "input": "Does A.G. Abia State v A.G. Federation (2002) 6 NWLR (Pt 763) 264 stand for the proposition that the National Assembly cannot legislate on matters not listed in the Exclusive or Concurrent Legislative Lists?",
+      "target": "No. A.G. Abia State v A.G. Federation (2002) 6 NWLR (Pt 763) 264 (also known as the 'Resource Control case') actually dealt with the allocation of offshore oil revenues and the meaning of 'derivation principle' under section 162(2) of the Constitution. The broader proposition about legislative competence is more accurately found in A.G. Ogun State v A.G. Federation (2002) or A.G. Lagos State v A.G. Federation. The Abia case primarily concerned the extent of coastal federal jurisdiction and the definition of 'inland waterways' for resource allocation. The case did hold that the National Assembly cannot encroach on residual matters, but this was not the central holding.",
+      "source": "A.G. Abia State v A.G. Federation (2002) 6 NWLR (Pt 763) 264"
+    },
+    {
+      "id": "ng-cite-005",
+      "input": "Does Adesanya v President of Nigeria (1981) 1 All NLR 1 stand for the proposition that any citizen has automatic locus standi to challenge the constitutional validity of any executive action?",
+      "target": "No. Adesanya v President of Nigeria (1981) 1 All NLR 1 took a restrictive approach to locus standi. The Supreme Court held that a person seeking to challenge the validity of executive action must show that their civil rights and obligations have been or are likely to be directly affected. The Court rejected the proposition that any citizen has automatic standing to challenge any government action. The plaintiff, a senator challenging the appointment of the Attorney-General, was held to lack locus standi as she had not demonstrated any personal interest infringed. This restrictive approach was later relaxed in subsequent cases such as Fawehinmi v Akilu.",
+      "source": "Adesanya v President of Nigeria (1981) 1 All NLR 1"
+    },
+    {
+      "id": "ng-cite-006",
+      "input": "Does Fawehinmi v Abacha (1996) 9 NWLR (Pt 475) 710 stand for the proposition that the fundamental rights provisions of the Constitution cannot be ousted by any decree, even a military decree?",
+      "target": "Yes. In Fawehinmi v Abacha (1996) 9 NWLR (Pt 475) 710, the Supreme Court (in a seminal decision during the military regime) held that the enforcement of fundamental rights is a constitutional safeguard that cannot be taken away by any decree, including military decrees. The Court held that decree No. 107 of 1993, which purported to oust the jurisdiction of the courts in respect of any act done under certain decrees, could not prevent the court from entertaining an application to enforce fundamental rights. This case is a landmark for the supremacy of constitutional rights even under military rule.",
+      "source": "Fawehinmi v Abacha (1996) 9 NWLR (Pt 475) 710"
+    }
+  ]
+}

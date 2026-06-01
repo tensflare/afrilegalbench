@@ -1,0 +1,27 @@
+{
+  "task_name": "nigeria-sc-criminal-evidence",
+  "jurisdiction": "nigeria",
+  "legal_system": ["common_law"],
+  "reasoning_type": "analogical_reasoning",
+  "languages": ["en"],
+  "dataset": [
+    {
+      "id": "ng-cite-010",
+      "input": "Does Suberu v State (2010) 2 NWLR (Pt 1180) 550 stand for the proposition that the evidence of a single witness can sustain a conviction for murder?",
+      "target": "Yes. In Suberu v State (2010) 2 NWLR (Pt 1180) 550, the Supreme Court of Nigeria held that the evidence of a single, credible eyewitness can sustain a conviction for murder. There is no legal requirement in Nigerian law that a conviction for murder (or any other offence) must be based on the evidence of more than one witness. What matters is the quality, not the quantity, of the evidence. The Court affirmed that if a trial court is satisfied that the sole witness is truthful and reliable, a conviction may be properly based on that evidence alone. However, the court must exercise caution and be satisfied that the evidence is cogent and free from doubt.",
+      "source": "Suberu v State (2010) 2 NWLR (Pt 1180) 550"
+    },
+    {
+      "id": "ng-cite-011",
+      "input": "Does the case of Akinyemi v State (2013) stand for the proposition that an accused person cannot be convicted solely on the basis of a confessional statement if the statement was retracted at trial?",
+      "target": "No, this proposition is incorrect. The case citation 'Akinyemi v State (2013)' is incomplete — it does not specify the volume and page of the law report. More importantly, under Nigerian law as established by the Supreme Court in cases such as Nwachukwu v State (2002) and others, a retracted confession can still form the basis of a conviction if it is found to be voluntary, direct, positive, and properly proved. The court must warn itself of the danger of convicting on a retracted confession and must look for corroboration, but there is no absolute rule that a retracted confession cannot sustain a conviction. The correct proposition is that a retracted confession requires the court to exercise caution and seek some corroborative evidence, but it is not automatically inadmissible or insufficient.",
+      "source": "Nwachukwu v State (2002); Nigerian criminal evidence jurisprudence"
+    },
+    {
+      "id": "ng-cite-012",
+      "input": "Does the case of Yesufu v State (1976) 6 SC 167 stand for the proposition that the offence of armed robbery requires proof that the accused was in possession of a firearm at the time of the robbery?",
+      "target": "Yes. In Yesufu v State (1976) 6 SC 167, the Supreme Court held that for the offence of armed robbery under the Robbery and Firearms (Special Provisions) Act, the prosecution must prove that the accused was armed with a firearm or other offensive weapon at the time of the robbery. The mere fact that a robbery occurred is insufficient — there must be evidence that the robbery was committed while the accused was armed. This case established the foundational interpretation of what constitutes 'armed robbery' as distinct from simple robbery in Nigerian criminal law.",
+      "source": "Yesufu v State (1976) 6 SC 167"
+    }
+  ]
+}

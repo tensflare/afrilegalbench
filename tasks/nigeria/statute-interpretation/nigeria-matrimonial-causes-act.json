@@ -1,0 +1,27 @@
+{
+  "task_name": "nigeria-matrimonial-causes-act",
+  "jurisdiction": "nigeria",
+  "legal_system": ["common_law"],
+  "reasoning_type": "rule_application",
+  "languages": ["en"],
+  "dataset": [
+    {
+      "id": "ng-matrimonial-001",
+      "input": "A wife petitions for divorce on the ground of adultery, alleging that her husband had sexual intercourse with a named woman. The husband denies the allegation. What standard of proof applies to the allegation of adultery in Nigerian divorce proceedings under the Matrimonial Causes Act?",
+      "target": "The standard of proof is on a balance of probabilities, not beyond reasonable doubt. Section 81(2) of the Matrimonial Causes Act provides that adultery must be proved to the satisfaction of the court, and the court may act on the uncorroborated evidence of one party, but the court must be satisfied that the evidence is truthful. The Supreme Court has held that while adultery in matrimonial proceedings is analogous to a quasi-criminal allegation, the standard of proof remains the civil standard of balance of probabilities, though the court requires cogent evidence commensurate with the gravity of the allegation.",
+      "source": "Matrimonial Causes Act, s. 81(2)"
+    },
+    {
+      "id": "ng-matrimonial-002",
+      "input": "A husband and wife have been separated for four years. The husband now wishes to divorce, but the wife opposes the petition. The husband has not committed adultery and cannot prove unreasonable behaviour. What ground, if any, can the husband rely on under the Matrimonial Causes Act?",
+      "target": "The husband can rely on the ground of five years' separation. However, since the parties have been separated for only four years, this ground is not yet available. The Matrimonial Causes Act provides that a petition may be presented on the ground that the parties have lived apart for a continuous period of at least five years immediately preceding the presentation of the petition (section 15(2)(f)). Since only four years have elapsed, the husband must wait until the five-year period is satisfied, unless he can establish another ground such as that the marriage has broken down irretrievably under another recognized head.",
+      "source": "Matrimonial Causes Act, s. 15(2)(f)"
+    },
+    {
+      "id": "ng-matrimonial-003",
+      "input": "During divorce proceedings, the wife applies for maintenance, requesting that the husband pay N500,000 per month. The husband argues that the wife is employed and earns N200,000 monthly and is therefore not entitled to maintenance. What factors must the court consider in determining the maintenance award?",
+      "target": "Under section 70 of the Matrimonial Causes Act, the court may make such orders as it thinks proper for the maintenance of a party to the marriage. The court must consider all relevant circumstances, including: (a) the financial resources and needs of each party; (b) the standard of living enjoyed by the family before the breakdown of the marriage; (c) the age of each party and the duration of the marriage; (d) any physical or mental disability of either party; (e) the contributions made by each party to the welfare of the family, including any contribution made by looking after the home or caring for the family; and (f) the conduct of each party. The wife's employment and income are relevant but not automatically disqualifying.",
+      "source": "Matrimonial Causes Act, s. 70"
+    }
+  ]
+}

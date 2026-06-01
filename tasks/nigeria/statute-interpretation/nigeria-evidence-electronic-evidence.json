@@ -1,0 +1,27 @@
+{
+  "task_name": "nigeria-evidence-electronic-evidence",
+  "jurisdiction": "nigeria",
+  "legal_system": ["common_law"],
+  "reasoning_type": "rule_interpretation",
+  "languages": ["en"],
+  "dataset": [
+    {
+      "id": "ng-electronic-001",
+      "input": "A party seeks to tender printouts of email communications between the parties as evidence of a contract. The other party objects, arguing that the emails are inadmissible as electronic evidence because they are not the 'best evidence.' How should the court rule under the Evidence Act 2011?",
+      "target": "The court should admit the email printouts. Under Part XVI of the Evidence Act 2011 (sections 145-148), electronic records are specifically recognized as admissible. Section 145 provides that nothing in the rules of evidence shall apply to deny the admissibility of an electronic record on the sole ground that it is an electronic record. Section 147(2) provides that where an electronic record in the form of a printout has been manifestly or consistently acted on, relied upon, or used as the record of the information recorded or stored on the printout, the printout is the record for the purposes of the best evidence rule. The integrity of the electronic records system is presumed in the absence of evidence to the contrary (section 148).",
+      "source": "Evidence Act 2011, ss. 145, 147(2), 148"
+    },
+    {
+      "id": "ng-electronic-002",
+      "input": "A party seeks to tender WhatsApp chat messages as evidence in a civil suit. The authenticity of the messages is disputed. What steps must the party take to properly authenticate the electronic evidence under the Evidence Act 2011?",
+      "target": "Under section 146 of the Evidence Act 2011, the person seeking to introduce an electronic record has the burden of proving its authenticity by evidence capable of supporting a finding that the electronic record is what the person claims it to be. For WhatsApp messages, this typically requires: (a) evidence of the phone number or account used; (b) screenshots or exported chat logs; (c) a certificate of authentication under section 84(4) of the Evidence Act, signed by a person in a position of responsibility who can confirm the process by which the electronic record was generated or stored. The court recognized the admissibility of WhatsApp messages in Nigerian courts in cases such as Terna v Terna (2021) LPELR-55507(CA).",
+      "source": "Evidence Act 2011, ss. 84, 146; Terna v Terna (2021) LPELR-55507(CA)"
+    },
+    {
+      "id": "ng-electronic-003",
+      "input": "In a criminal trial, the prosecution seeks to tender a recording of a telephone conversation between the defendant and the complainant. The defendant objects that the recording was obtained without his consent. Is the recording admissible?",
+      "target": "The admissibility depends on the circumstances. The Evidence Act 2011 (section 84) does not require consent as a condition for admissibility of electronic evidence. However, section 84(3) provides that the court may exclude electronic evidence if it appears that the evidence ought not to be admitted because of prejudice, unfairness, or other grounds. Under the Nigerian Constitution, section 37 protects the privacy of citizens, their homes, correspondence, and telephone conversations. If the recording was obtained in violation of constitutional privacy rights, it may be excluded where its admission would be unfair or contrary to public policy. The court has discretion under section 84(3) to exclude evidence obtained in breach of constitutional rights. Additionally, the Administration of Criminal Justice Act 2015, section 221, allows the court to exclude improperly obtained evidence.",
+      "source": "Evidence Act 2011, ss. 84(3), 84; Constitution of Nigeria 1999, s. 37; ACJA 2015, s. 221"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "task_name": "nigeria-criminal-procedure-bail",
+  "jurisdiction": "nigeria",
+  "legal_system": ["common_law"],
+  "reasoning_type": "rule_application",
+  "languages": ["en"],
+  "dataset": [
+    {
+      "id": "ng-procedure-001",
+      "input": "A defendant is charged with armed robbery (a capital offence under the Robbery and Firearms (Special Provisions) Act). The defendant applies for bail before the High Court. The prosecution opposes, arguing that no bail should be granted for capital offences. What legal test must the court apply?",
+      "target": "Under section 164(1) of the Administration of Criminal Justice Act (ACJA) 2015, a defendant charged with a capital offence may be granted bail only if there are exceptional circumstances making further detention unjustified. The court must consider: (a) whether there are exceptional circumstances sufficient to justify the grant of bail, and (b) whether the defendant is likely to attend trial. The Court of Appeal has held that exceptional circumstances include the weakness of the prosecution's prima facie case, long delay in trial, ill health of the defendant, or the defendant being a minor. The burden is on the defendant to show exceptional circumstances. This applies to all capital offences, including armed robbery.",
+      "source": "Administration of Criminal Justice Act 2015, s. 164(1)"
+    },
+    {
+      "id": "ng-procedure-002",
+      "input": "A suspect is arrested by the police in Lagos on a Tuesday morning on suspicion of obtaining money by false pretences. By what day must the suspect be brought before a court, and what happens if this deadline is not met?",
+      "target": "Under section 293(1) of the ACJA 2015, a suspect arrested for a non-capital offence must be brought before a court of competent jurisdiction within 24 hours if a court is sitting within that radius, or within a reasonable time not exceeding 48 hours. Since this is a non-capital offence (obtaining by false pretences is not a capital offence), the suspect must be brought before court within 24 to 48 hours, counting from the time of arrest (not including the day of arrest). If this deadline is not met, the suspect is entitled to apply for enforcement of their fundamental right to dignity and liberty under section 35 of the Constitution. The police must not detain beyond the prescribed period without a court order.",
+      "source": "ACJA 2015, s. 293(1); Constitution of Nigeria 1999, s. 35"
+    },
+    {
+      "id": "ng-procedure-003",
+      "input": "A prosecutor wishes to tender a certified copy of a bank statement as evidence in a criminal trial without calling the bank manager to testify. Is this permissible under the ACJA 2015 and the Evidence Act 2011?",
+      "target": "Yes. Section 84 of the Evidence Act 2011 provides that documents produced by computers or electronic devices, including bank statements, are admissible if certain conditions are satisfied regarding the reliability of the computer system. Additionally, section 104 of the ACJA 2015 provides that a certificate signed by an officer of a bank containing a copy of the bank's records may be admitted in evidence without calling the bank officer, provided the certificate is duly authenticated. The certificate must comply with the requirements of section 84(4) of the Evidence Act. This streamlines the admissibility of banking records in criminal trials.",
+      "source": "Evidence Act 2011, s. 84; ACJA 2015, s. 104"
+    }
+  ]
+}

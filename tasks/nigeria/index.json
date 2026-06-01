@@ -1,0 +1,54 @@
+{
+  "jurisdiction": "nigeria",
+  "phase": 1,
+  "total_task_files": 20,
+  "total_examples": 62,
+  "categories": {
+    "statute_interpretation": {
+      "count": 15,
+      "description": "Given a fact pattern and legal question, identify and correctly apply the relevant Nigerian statute",
+      "tasks": [
+        "nigeria-evidence-hearsay-admissibility",
+        "nigeria-land-use-act-governors-consent",
+        "nigeria-cama-directors-duties",
+        "nigeria-constitution-fundamental-rights",
+        "nigeria-matrimonial-causes-act",
+        "nigeria-criminal-code-theft",
+        "nigeria-contract-formation",
+        "nigeria-evidence-burden-proof",
+        "nigeria-cama-incorporation",
+        "nigeria-tort-negligence",
+        "nigeria-labour-act-termination",
+        "nigeria-criminal-procedure-bail",
+        "nigeria-evidence-electronic-evidence",
+        "nigeria-constitution-amendment-process",
+        "nigeria-company-tax-obligations"
+      ]
+    },
+    "citation_verification": {
+      "count": 15,
+      "description": "Given a proposition attributed to a Nigerian case, verify whether the proposition accurately reflects the case's holding",
+      "tasks": [
+        "nigeria-sc-land-use-consent",
+        "nigeria-sc-constitutional-law",
+        "nigeria-sc-customary-family-law",
+        "nigeria-sc-criminal-evidence",
+        "nigeria-sc-jurisdiction-procedure"
+      ]
+    }
+  },
+  "data_sources": [
+    "NigeriaLII (nigerialii.org)",
+    "Constitution of the Federal Republic of Nigeria 1999 (as amended)",
+    "Evidence Act 2011",
+    "Land Use Act",
+    "Companies and Allied Matters Act 2020",
+    "Matrimonial Causes Act",
+    "Criminal Code Act",
+    "Labour Act",
+    "Administration of Criminal Justice Act 2015",
+    "Companies Income Tax Act",
+    "Supreme Court of Nigeria judgments (NWLR)"
+  ],
+  "annotator_notes": "All tasks are in English. Statute interpretation tasks require applying statutory text to fact patterns. Citation verification tasks require knowledge of well-known Nigerian Supreme Court precedent. Incomplete or unverifiable citations should be flagged as 'NO' (proposition not supported by cited authority)."
+}

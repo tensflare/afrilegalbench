@@ -1,0 +1,27 @@
+{
+  "task_name": "nigeria-sc-land-use-consent",
+  "jurisdiction": "nigeria",
+  "legal_system": ["common_law"],
+  "reasoning_type": "analogical_reasoning",
+  "languages": ["en"],
+  "dataset": [
+    {
+      "id": "ng-cite-001",
+      "input": "Does the case of Savannah Bank (Nig) Plc v Ajilo (1989) 1 NWLR (Pt 97) 305 stand for the proposition that any transfer of a statutory right of occupancy without the prior consent of the Governor is null and void?",
+      "target": "Yes. In Savannah Bank (Nig) Plc v Ajilo (1989) 1 NWLR (Pt 97) 305, the Supreme Court of Nigeria held that under sections 22 and 26 of the Land Use Act, the Governor's consent is a mandatory requirement for any transfer or alienation of land within a state, and failure to obtain such consent renders the transfer or alienation null and void. This case established the foundational interpretation of the consent requirement that was followed until the later decision in Yakubu v Simon Obaje.",
+      "source": "Savannah Bank (Nig) Plc v Ajilo (1989) 1 NWLR (Pt 97) 305"
+    },
+    {
+      "id": "ng-cite-002",
+      "input": "Does Ilori v Ishola (2018) 15 NWLR (Pt 1641) 77 stand for the proposition that an agreement to alienate a statutory right of occupancy entered into subject to the Governor's consent is void ab initio?",
+      "target": "No. Ilori v Ishola (2018) 15 NWLR (Pt 1641) 77 held the opposite: that section 22(1) of the Land Use Act does not prohibit the holder of a statutory right of occupancy from entering into negotiations that end with a written agreement for presentation to the Governor for consent, so long as the agreement is 'subject to the consent of the Governor.' Such an agreement is not void but inchoate — it becomes complete once consent is obtained. This was established by Nweze JSC who held that parties could not approbate and reprobate after benefiting from the transaction.",
+      "source": "Ilori v Ishola (2018) 15 NWLR (Pt 1641) 77"
+    },
+    {
+      "id": "ng-cite-003",
+      "input": "Does UBN Plc v Ayodare & Sons (Nig) Ltd (2007) 13 NWLR (Pt 1052) 567 stand for the proposition that the Governor may delegate the power to grant consent under the Land Use Act to any officer of the Ministry of Lands?",
+      "target": "No. UBN Plc v Ayodare & Sons (Nig) Ltd (2007) 13 NWLR (Pt 1052) 567 held that the consent letter under section 22 of the Land Use Act must be written and signed by the Commissioner for Lands as the Governor's delegate under section 45(1), not a mere officer of the ministry. The Supreme Court held that the Acting Chief Lands Officer lacked the authority, and this negatively affected the validity of the mortgage. Only the Commissioner (or the Governor personally) can exercise this delegated power.",
+      "source": "UBN Plc v Ayodare & Sons (Nig) Ltd (2007) 13 NWLR (Pt 1052) 567"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "task_name": "nigeria-company-tax-obligations",
+  "jurisdiction": "nigeria",
+  "legal_system": ["common_law"],
+  "reasoning_type": "rule_application",
+  "languages": ["en"],
+  "dataset": [
+    {
+      "id": "ng-tax-001",
+      "input": "A Nigerian company incorporated under CAMA 2020 has paid tax on its profits in the United Kingdom on income derived from its UK branch. The company is now being assessed for Companies Income Tax (CIT) in Nigeria on the same profits. The company argues that this amounts to double taxation. Under the Companies Income Tax Act (CITA), is the company entitled to relief?",
+      "target": "Yes. Section 40(1) of CITA provides for unilateral double taxation relief. Where a Nigerian company has paid tax in a jurisdiction outside Nigeria on any income derived from that jurisdiction, the company is entitled to credit against Nigerian CIT payable in respect of that income, up to the amount of Nigerian tax attributable to that income, or the amount of foreign tax paid, whichever is lower. This is available where no double taxation agreement exists between Nigeria and the UK. However, the company must claim the relief within the prescribed time and provide evidence of foreign tax paid. Note that Nigeria and the UK do have a double taxation agreement which may provide more favourable relief.",
+      "source": "Companies Income Tax Act, s. 40(1)"
+    },
+    {
+      "id": "ng-tax-002",
+      "input": "A company's tax year ends on December 31. The company filed its annual tax returns with the Federal Inland Revenue Service (FIRS) on September 30 of the following year. The FIRS imposes a penalty for late filing. What is the statutory deadline for filing annual tax returns under CITA?",
+      "target": "Under section 55(1) of CITA, every company must file its annual tax return within six months after the end of its accounting year. Since the company's year ends on December 31, the return was due by June 30 of the following year. The filing on September 30 is three months late. Section 55(2) imposes a penalty of N100,000 in the first instance and N25,000 for every month the default continues for the first twelve months. Additionally, section 55(3) provides that the late filing may subject the company to a further penalty of N1,000,000 if the failure continues for more than twelve months.",
+      "source": "Companies Income Tax Act, s. 55(1), (2), (3)"
+    },
+    {
+      "id": "ng-tax-003",
+      "input": "A company incurs a capital expenditure of N50 million on acquiring a new factory building. The company wishes to claim capital allowance on this expenditure for the relevant tax year. Under CITA, what is the initial and annual allowance rate for a factory building in Nigeria?",
+      "target": "Under the Companies Income Tax Act, the capital allowance rates for industrial buildings (including factory buildings) are: (a) initial allowance of 15% of the qualifying expenditure, claimable in the first year of use; (b) annual allowance of 10% of the qualifying expenditure, claimable from the first year of use on a straight-line basis (i.e., same amount each year). The total allowance claimed over the life of the asset cannot exceed 100% of the qualifying expenditure. However, note that there is no capital allowance claimable in the year of disposal. The company must ensure the factory building qualifies as an 'industrial building' under the Act.",
+      "source": "Companies Income Tax Act"
+    }
+  ]
+}

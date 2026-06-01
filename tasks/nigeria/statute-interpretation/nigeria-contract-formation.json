@@ -1,0 +1,27 @@
+{
+  "task_name": "nigeria-contract-formation",
+  "jurisdiction": "nigeria",
+  "legal_system": ["common_law"],
+  "reasoning_type": "rule_application",
+  "languages": ["en"],
+  "dataset": [
+    {
+      "id": "ng-contract-001",
+      "input": "A sends an email to B offering to sell a car for N2 million. B replies by email: 'I accept your offer but will pay in two installments of N1 million each, payable over two months.' A does not respond. Is there a binding contract between A and B?",
+      "target": "No. Under the common law as received in Nigeria, a counter-offer operates as a rejection of the original offer. B's response introduced new terms (installment payment) and is therefore a counter-offer, not an acceptance. Since A never accepted the counter-offer, no contract exists. This follows the English common law principle established in Hyde v Wrench (1840) 3 Beav 334, which is applicable in Nigeria as part of the received English common law under section 45(1) of the Interpretation Act.",
+      "source": "Interpretation Act, s. 45(1); Hyde v Wrench (1840) 3 Beav 334"
+    },
+    {
+      "id": "ng-contract-002",
+      "input": "B sends a letter to A offering to purchase A's land for N10 million. A posts a letter of acceptance on Monday. On Wednesday, before the acceptance letter arrives, B receives a higher offer and telephones A to revoke the offer. A says the acceptance was already posted. Is there a binding contract?",
+      "target": "Yes. Under Nigerian common law (following the English postal acceptance rule), acceptance by post takes effect when the letter of acceptance is posted, not when it is received. Since A posted the acceptance letter on Monday, the contract was formed on Monday. B's attempted revocation on Wednesday is ineffective because the offer had already been accepted. However, this rule applies only where postal acceptance was within the contemplation of the parties. The rule was established in Adams v Lindsell (1818) 1 B & Ald 681 and has been applied in Nigerian jurisprudence.",
+      "source": "Adams v Lindsell (1818) 1 B & Ald 681"
+    },
+    {
+      "id": "ng-contract-003",
+      "input": "A company advertises a reward of N500,000 for anyone who provides information leading to the conviction of a person who vandalized company property. X, a private citizen, provides information that leads to a conviction. X then claims the reward. The company refuses, arguing that X provided the information voluntarily without reference to the advertisement. Is X entitled to the reward?",
+      "target": "Yes. Under the common law as applied in Nigeria, a unilateral offer of a reward creates a contract when the requested act is performed, provided the person knew of the offer at the time of performance. The case of Carlill v Carbolic Smoke Ball Co (1893) 1 QB 256, which is persuasive authority in Nigeria, establishes that performance of the requested act constitutes acceptance of a unilateral offer. X need not have communicated acceptance before performing the act — performance itself constitutes acceptance. If X knew of the reward offer before providing the information, a contract exists and X is entitled to the reward.",
+      "source": "Carlill v Carbolic Smoke Ball Co (1893) 1 QB 256"
+    }
+  ]
+}
