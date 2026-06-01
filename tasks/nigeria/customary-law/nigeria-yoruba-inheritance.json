@@ -1,0 +1,21 @@
+{
+  "task_name": "nigeria-yoruba-inheritance",
+  "jurisdiction": "nigeria",
+  "legal_system": ["common_law", "customary_law"],
+  "reasoning_type": "customary_law_reasoning",
+  "languages": ["en"],
+  "dataset": [
+    {
+      "id": "ng-custom-004",
+      "input": "Under Yoruba customary law, a man dies intestate survived by his wife, his eldest son, and three younger children. The deceased did not execute a will. The eldest son claims he is entitled to inherit the entire estate as the family head, to the exclusion of the wife and other children. The wife and younger children challenge this. How would a Nigerian court determine the distribution of the estate?",
+      "target": "Under traditional Yoruba customary law, the eldest son (Dawodu/Akogun) inherits the deceased father's property as the family head, holding it in trust for the benefit of all family members. However, this customary law rule has been significantly modified by Nigerian statute and case law. The Administration of Estates Law (applicable in Lagos, Ogun, and other Yoruba states) now governs intestate succession for most Yoruba people. Additionally, the Supreme Court in Ukeje v Ukeje (2014) 11 NWLR (Pt 1418) 384 struck down any customary law that discriminates on the basis of sex as unconstitutional. A Nigerian court today would likely apply the Administration of Estates Law, which distributes the estate among the spouse and children in defined shares: the spouse receives a portion (e.g., one-third under Lagos law) and the children share the residue equally, without discrimination between male and female children. The eldest son cannot claim exclusive ownership — at most, he may be appointed as the family head/administrator with duties to account to all beneficiaries.",
+      "source": "Administration of Estates Law (Lagos State); Ukeje v Ukeje (2014) 11 NWLR (Pt 1418) 384"
+    },
+    {
+      "id": "ng-custom-005",
+      "input": "Under Yoruba customary law, a woman is married under customary law and lives with her husband's family. She contributes her labour to the family farm and helps build the family home over 25 years of marriage. The husband dies without a will. The husband's extended family claims that under Yoruba custom, the widow has no right to remain in the matrimonial home or inherit any part of the estate. Is this claim enforceable in a Nigerian court today?",
+      "target": "No. While traditional Yoruba customary law may have denied widows inheritance rights, such a custom is now unenforceable as it violates the constitutional guarantee against sex discrimination under section 42 of the Constitution of Nigeria 1999. The Supreme Court in Ukeje v Ukeje (2014) established that any customary law that discriminates against women is void. Additionally, under the Married Women's Property Act and the Administration of Estates Law of the relevant state, a widow has defined inheritance rights. The widow may also claim a beneficial interest in the matrimonial home based on her contribution of labour over 25 years, under the equitable principle that courts will recognise a woman's contribution to family assets. In Obioha v Obioha (2018), the Court of Appeal recognised a wife's equitable interest in property acquired during marriage through her indirect contributions.",
+      "source": "Constitution of Nigeria 1999, s. 42; Ukeje v Ukeje (2014); Obioha v Obioha (2018)"
+    }
+  ]
+}

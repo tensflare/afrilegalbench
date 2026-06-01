@@ -1,0 +1,15 @@
+{
+  "task_name": "kenya-customary-succession",
+  "jurisdiction": "kenya",
+  "legal_system": ["common_law", "customary_law"],
+  "reasoning_type": "customary_law_reasoning",
+  "languages": ["en"],
+  "dataset": [
+    {
+      "id": "ke-custom-003",
+      "input": "A man dies intestate in a rural area of Kisumu County, survived by two wives and eight children. He was a Muslim and married both wives under Islamic law, but the marriages were never registered. He owned land that had been in his family for generations under Luo customary tenure. The two wives disagree on how the estate should be distributed — one argues for Islamic law (Qur'anic shares), the other for Luo customary law (male inheritance). Under Kenyan law, which system of succession applies?",
+      "target": "Under the Law of Succession Act (Cap 160), section 2(2) excludes from its application the 'estate of a person who, at the time of his death, was a Muslim' — but only to the extent that the law of succession applicable to Muslims (Islamic law) is to apply. However, section 2(3) provides that the Act does not apply to the 'estate of a person who, at the time of his death, was a member of a community to which customary law applied' — but only to the extent that the Minister has made rules of court for the application of that customary law. The courts have held that where a deceased was both Muslim and subject to customary law, the applicable law depends on the deceased's pattern of life: which system did the deceased consider themselves bound by? The Court of Appeal has held that the dual application of Islamic and customary succession law creates a conflict that must be resolved by determining: (a) the deceased's personal law during their lifetime; (b) whether the property in question is subject to customary tenure (ancestral land) or was acquired individually; (c) the wishes of the deceased if express. In practice, Kenyan courts apply customary law to ancestral land (especially in community land areas under Article 63) and Islamic law to personal property for Muslims. The court may also apply the Law of Succession Act's principles of equality among children (section 38) if neither customary nor Islamic law can be clearly established.",
+      "source": "Law of Succession Act (Cap 160), s. 2; Constitution of Kenya 2010, art. 63"
+    }
+  ]
+}

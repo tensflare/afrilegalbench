@@ -23,8 +23,9 @@ Following LegalBench's taxonomy (6 categories) plus four additions for African l
 - **Statute interpretation & retrieval** — given a fact pattern, identify and apply the relevant statute
 - **Case citation verification** — does a cited case stand for the proposition attributed to it?
 - **Customary law reasoning** — how would this dispute be resolved under applicable customary law?
+- **Sharia law reasoning** — Muslim personal status under Sharia in northern Nigeria
+- **Long document understanding** — ratio decidendi, obiter dicta, and clause analysis in full judgments
 - **Multilingual statute retrieval** — given a query in one language, find the relevant statute in another
-- **Long document understanding** — clause detection in full judgments (50+ pages)
 - **Multi-jurisdictional citation analysis** — when does a court cite foreign precedent?
 - **Legal system identification** — does this fact pattern fall under common law, customary law, or Sharia?
 - **Analogical reasoning** — is case A analogous to case B within or across jurisdictions?

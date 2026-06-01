@@ -1,8 +1,8 @@
 {
   "jurisdiction": "nigeria",
-  "phase": 1,
-  "total_task_files": 20,
-  "total_examples": 62,
+  "phase": 3,
+  "total_task_files": 27,
+  "total_examples": 76,
   "categories": {
     "statute_interpretation": {
       "count": 15,
@@ -34,6 +34,31 @@
         "nigeria-sc-customary-family-law",
         "nigeria-sc-criminal-evidence",
         "nigeria-sc-jurisdiction-procedure"
+      ]
+    },
+    "customary_law": {
+      "count": 3,
+      "description": "Reasoning under Yoruba, Igbo, and Hausa customary law",
+      "tasks": [
+        "nigeria-yoruba-inheritance",
+        "nigeria-igbo-marriage",
+        "nigeria-hausa-land-tenure"
+      ]
+    },
+    "sharia_law": {
+      "count": 2,
+      "description": "Muslim personal status law under Sharia in northern Nigeria",
+      "tasks": [
+        "nigeria-sharia-marriage-divorce",
+        "nigeria-sharia-courts-jurisdiction"
+      ]
+    },
+    "long_document": {
+      "count": 2,
+      "description": "Ratio decidendi, obiter dicta, and clause-level analysis of judgments and contracts",
+      "tasks": [
+        "nigeria-sc-judgment-analysis",
+        "nigeria-contract-clause-analysis"
       ]
     }
   },

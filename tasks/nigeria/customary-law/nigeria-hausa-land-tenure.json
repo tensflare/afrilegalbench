@@ -1,0 +1,15 @@
+{
+  "task_name": "nigeria-hausa-land-tenure",
+  "jurisdiction": "nigeria",
+  "legal_system": ["common_law", "customary_law", "sharia_law"],
+  "reasoning_type": "customary_law_reasoning",
+  "languages": ["en"],
+  "dataset": [
+    {
+      "id": "ng-custom-008",
+      "input": "Under the traditional Hausa land tenure system in northern Nigeria, land is held by the community and allocated by the village head (Hakimi) to families for farming. A family has farmed a particular plot for three generations without formal title. The state government now claims the land for an industrial development project and offers compensation only for crops, not the land itself, arguing that the family had no legal interest in the land. Under the Land Use Act, what interest does the family have in the land?",
+      "target": "Under section 36(2) of the Land Use Act, any occupier or holder of land not in an urban area, whether under customary rights or otherwise, who was using the land for agricultural purposes at the commencement of the Act, continues to be entitled to possession of the land for agricultural purposes 'as if a customary right of occupancy had been granted to the occupier or holder thereof by the appropriate local government.' This deeming provision means that the family holds a customary right of occupancy by operation of law. The family's interest is protected under sections 36-37 of the Act. If the state government wishes to acquire the land, it must: (a) revoke the customary right of occupancy under section 28; (b) pay compensation under section 29 for the value of the land itself (not just crops), including the unexhausted improvements; and (c) follow the procedure under the Land Use Act and the applicable state Acquisition Law. The family's three-generation occupation constitutes a 'customary right of occupancy' that cannot be extinguished without proper compensation. The Supreme Court in Osho v Foreign Finance Corporation (1991) affirmed the principle that long-standing customary occupation creates a legally recognised interest in land.",
+      "source": "Land Use Act, ss. 28, 29, 36(2); Osho v Foreign Finance Corporation (1991)"
+    }
+  ]
+}

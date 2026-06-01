@@ -1,0 +1,27 @@
+{
+  "task_name": "nigeria-sharia-courts-jurisdiction",
+  "jurisdiction": "nigeria",
+  "legal_system": ["common_law", "sharia_law"],
+  "reasoning_type": "legal_system_identification",
+  "languages": ["en"],
+  "dataset": [
+    {
+      "id": "ng-sharia-004",
+      "input": "A Christian businessman resident in Kano State is sued in a Sharia court by a Muslim business partner over a contractual dispute. The Christian businessman challenges the jurisdiction of the Sharia court, arguing that he is not a Muslim and should not be subject to Sharia court jurisdiction. Under the Nigerian Constitution, does the Sharia court have jurisdiction over the Christian businessman?",
+      "target": "No, the Sharia court likely does not have jurisdiction over the Christian businessman in this matter. Under section 277 of the Constitution of Nigeria 1999, a Sharia Court of Appeal has jurisdiction over questions of Islamic personal law, including: marriage, divorce, inheritance, wakf (endowment), and other matters where all parties are Muslims and the matter is governed by Islamic personal law. The Court of Appeal in Magaji v Odofin (2020) held that Sharia courts cannot exercise jurisdiction over non-Muslims who do not submit to their jurisdiction. A contractual dispute involving a non-Muslim is a civil matter that falls within the jurisdiction of the regular (common law) courts — the Magistrates' Court or the State High Court, depending on the value of the claim. Even a Muslim party cannot unilaterally compel a non-Muslim to submit to Sharia court jurisdiction for a commercial matter. However, if the Christian businessman voluntarily submits to the Sharia court's jurisdiction, the court may proceed with his consent.",
+      "source": "Constitution of Nigeria 1999, s. 277; Magaji v Odofin (2020)"
+    },
+    {
+      "id": "ng-sharia-005",
+      "input": "A Zamfara State law creates new criminal offences under Sharia law, including the offence of drinking alcohol with a penalty of 80 lashes. A Christian resident of Zamfara is charged before a Sharia court with this offence. The accused argues that the Sharia court lacks jurisdiction and that the penalty is unconstitutional. How should the Nigerian court system resolve this?",
+      "target": "This raises complex constitutional questions. Under the Constitution, the Sharia Court of Appeal has jurisdiction limited to Islamic personal law (section 277) — it does not have criminal jurisdiction. The purported extension of Sharia court jurisdiction to criminal matters in some northern states (like Zamfara) has been a subject of constitutional controversy. The Court of Appeal in State v Safiyatu Hussaini (2001) and related cases effectively held that: (a) Sharia courts may exercise criminal jurisdiction over Muslims who voluntarily submit, provided the proceedings comply with constitutional fair hearing guarantees (section 36); (b) non-Muslims cannot be compelled to submit to Sharia criminal jurisdiction; (c) any punishment that constitutes 'torture, inhuman or degrading treatment' under section 34(1)(a) of the Constitution is unconstitutional, regardless of whether it is authorised by Sharia law. The constitutionality of specific Sharia criminal penalties remains a contested constitutional issue in Nigeria. A Christian charged before a Sharia court can challenge the jurisdiction in the Federal High Court under its fundamental rights enforcement jurisdiction.",
+      "source": "Constitution of Nigeria 1999, ss. 34, 36, 277"
+    },
+    {
+      "id": "ng-sharia-006",
+      "input": "A Sharia court issues an order regarding the custody of a child following a divorce between two Muslims. The child's mother, who was granted custody under the Sharia court's order, moves with the child from Kano to Lagos without the father's consent. The father seeks to enforce the Sharia court's order in Lagos, which is outside the Sharia court's territorial jurisdiction. Can a non-Sharia court in Lagos enforce the Sharia court's custody order?",
+      "target": "Yes, but it depends on whether the Sharia court's order is recognised as a valid judgment of a court of competent jurisdiction. Under section 6 of the Constitution, the Sharia Court of Appeal is part of the hierarchical court system in Nigeria and its judgments are entitled to recognition and enforcement throughout the federation, subject to appeal. For lower Sharia courts (area courts or Sharia courts established by state law), their judgments are enforceable within the state. If the judgment is from a court of competent jurisdiction, the State High Court in Lagos may enforce it under the principles of comity and the Constitution's recognition of the unified court system. The Child Rights Act 2003 (adopted by most states) provides that the best interests of the child is the paramount consideration in custody matters, and a Lagos court could review the custody arrangement on that basis if there has been a material change in circumstances since the original order.",
+      "source": "Constitution of Nigeria 1999, s. 6; Child Rights Act 2003"
+    }
+  ]
+}

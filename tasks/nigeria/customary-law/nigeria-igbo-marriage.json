@@ -1,0 +1,21 @@
+{
+  "task_name": "nigeria-igbo-marriage",
+  "jurisdiction": "nigeria",
+  "legal_system": ["common_law", "customary_law"],
+  "reasoning_type": "customary_law_reasoning",
+  "languages": ["en"],
+  "dataset": [
+    {
+      "id": "ng-custom-006",
+      "input": "A man and a woman enter into an Igbo customary marriage. The bride price (dowry) is paid in full, and the marriage is celebrated according to Igbo tradition. The woman later discovers that the man is already married under Igbo customary law to another woman. She seeks a declaration that the marriage is void. Under Nigerian law, what is the effect of a pre-existing customary marriage on the validity of a subsequent customary marriage?",
+      "target": "Under section 35 of the Marriage Act, a marriage under the Act is void if either party was already married under customary law at the time. However, this refers to statutory marriage. For customary marriages themselves, the position is different. Igbo customary law traditionally permitted polygamy. A pre-existing customary marriage does not automatically invalidate a subsequent customary marriage under customary law. However, section 33 of the Matrimonial Causes Act treats polygamous marriages differently from monogamous ones. The critical legal question is whether the woman consented to a polygamous union. If the man concealed the existing marriage and the woman would not have consented had she known, the customary marriage may be voidable on the ground of fraud or lack of consent. Under the Evidence Act 2011 section 131(2) and the Supreme Court's decision in Ogunleye v Ogunleye, a customary marriage requires: (a) consent of the parties; (b) consent of the parents/families; and (c) payment of bride price. Fraud vitiates consent, and the marriage may be declared void.",
+      "source": "Marriage Act, ss. 33, 35; Matrimonial Causes Act; Ogunleye v Ogunleye"
+    },
+    {
+      "id": "ng-custom-007",
+      "input": "Under Igbo customary law, a man died intestate. His eldest son claims the right to inherit the deceased's property to the exclusion of the deceased's daughters. The daughters argue that the customary rule discriminates against them. The eldest son relies on the 'Oli-ekpe' custom of the particular Igbo community. How should the court resolve this dispute?",
+      "target": "The court must apply the principles established in Ukeje v Ukeje (2014) 11 NWLR (Pt 1418) 384, where the Supreme Court held that the Igbo customary law that disinherits female children is void as it conflicts with section 42 of the Constitution, which prohibits discrimination on the grounds of sex. The 'Oli-ekpe' custom is unenforceable to the extent that it discriminates against female children. The daughters are entitled to inherit equally with the eldest son. However, the eldest son may be appointed as the family representative/administrator of the estate, provided he administers it for the benefit of all beneficiaries and accounts to them. The court may also consider the applicable Administration of Estates Law of the state where the deceased was domiciled, which typically provides for equal distribution among children regardless of sex or birth order.",
+      "source": "Ukeje v Ukeje (2014) 11 NWLR (Pt 1418) 384; Constitution of Nigeria 1999, s. 42"
+    }
+  ]
+}

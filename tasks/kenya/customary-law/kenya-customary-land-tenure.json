@@ -1,0 +1,21 @@
+{
+  "task_name": "kenya-customary-land-tenure",
+  "jurisdiction": "kenya",
+  "legal_system": ["common_law", "customary_law"],
+  "reasoning_type": "customary_law_reasoning",
+  "languages": ["en"],
+  "dataset": [
+    {
+      "id": "ke-custom-001",
+      "input": "A member of a Maasai community claims ownership of a parcel of land that has been occupied by his family for generations under customary land tenure. The land is now classified as 'trust land' held by the county government. The county government proposes to allocate the land to a private developer. The community member argues that his customary land rights are protected under the Constitution of Kenya 2010. What is the legal status of customary land rights under the Constitution?",
+      "target": "Under Article 63(2)(d) of the Constitution of Kenya 2010, community land includes land that is lawfully held, managed, or used by specific communities as community forests, grazing areas, shrines, ancestral lands, and lands traditionally occupied by hunter-gatherer communities. Article 63(1) recognises community land as a distinct category of land ownership alongside public and private land. Under Article 40(1), every person has the right to acquire and own property. The National Land Commission Act and the Community Land Act 2016 provide for the registration and protection of community land rights. The Court of Appeal in the Mitu-Bell case affirmed that land rights, including those based on customary occupation, are protected under the Constitution. However, the community member must register the customary land rights under the Community Land Act 2016 to obtain formal legal recognition. Until registration, the land may be classified as trust land held by the county government, but the county cannot allocate it to third parties without first adjudicating and extinguishing the customary rights of the occupants. The Constitution requires that land rights be recognised without discrimination.",
+      "source": "Constitution of Kenya 2010, arts. 40, 63; Community Land Act 2016"
+    },
+    {
+      "id": "ke-custom-002",
+      "input": "A woman in a community that practices Luo customary law inherits land from her father. The Luo custom traditionally excludes women from inheriting land, as land passes through the male line. The woman's brothers challenge her inheritance, arguing that Luo custom prohibits women from owning land. The woman invokes the Constitution. How should the court resolve this dispute?",
+      "target": "The court should uphold the woman's right to inherit land. Article 27(3) of the Constitution prohibits discrimination on the basis of sex, and Article 27(4) provides that the State shall not discriminate against any person on any ground including sex. Article 28 guarantees the right to human dignity. Article 60(1)(f) requires land to be held, used, and managed in a manner that is 'equitable, efficient, productive and sustainable and in accordance with the principles of... elimination of gender discrimination in law, customs and practices related to land and property in land.' Any customary law rule that disinherits women is void for inconsistency with the Constitution. The Supreme Court of Kenya has held in various decisions (following the approach in Ukeje v Ukeje in Nigeria) that customary laws that discriminate on the basis of sex are unconstitutional. The woman is entitled to inherit the land equally with her brothers. The court may also order the Land Registrar to register the woman's title under the Land Registration Act 2012.",
+      "source": "Constitution of Kenya 2010, arts. 27, 28, 60(1)(f)"
+    }
+  ]
+}

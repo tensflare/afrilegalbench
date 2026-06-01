@@ -1,0 +1,27 @@
+{
+  "task_name": "nigeria-sharia-marriage-divorce",
+  "jurisdiction": "nigeria",
+  "legal_system": ["common_law", "sharia_law"],
+  "reasoning_type": "customary_law_reasoning",
+  "languages": ["en"],
+  "dataset": [
+    {
+      "id": "ng-sharia-001",
+      "input": "A Muslim couple in Kano State marries under Islamic law. The husband pronounces talaq (unilateral divorce) three times, immediately dissolving the marriage. The wife challenges the validity of the triple talaq, arguing that it does not comply with proper Sharia procedure which requires a waiting period (iddah) between each pronouncement. Under Nigerian law and the Sharia applicable in northern Nigeria, is the triple talaq effective?",
+      "target": "Under the Maliki school of Islamic jurisprudence (which is the predominant school in northern Nigeria), a triple talaq pronounced in a single session is considered effective and constitutes a final, irrevocable divorce (talaq ba'in). This is the traditional position applied by Sharia courts in Nigeria. However, the wife may be entitled to: (a) her deferred dower (mahr mu'ajjal); (b) maintenance during the iddah period (three menstrual cycles or three months); and (c) custody of the children according to the relevant age thresholds. The matter may also be subject to the constitutional guarantee of fair hearing under section 36 of the Constitution and the non-discrimination provision under section 42, though Nigerian courts have generally been reluctant to intervene in core Sharia personal status matters adjudicated by properly constituted Sharia courts, provided the proceedings comply with constitutional fair hearing standards.",
+      "source": "Maliki school of Islamic jurisprudence; Constitution of Nigeria 1999, ss. 36, 42"
+    },
+    {
+      "id": "ng-sharia-002",
+      "input": "A Muslim man in Zamfara State marries a second wife without the consent of his first wife. The first wife petitions the Sharia court, arguing that the husband did not have her consent as required under Islamic law. The husband argues that Islamic law permits a man to marry up to four wives and that he does not need the first wife's permission. Under the Maliki school as applied in Nigeria, is the husband correct?",
+      "target": "The husband is not entirely correct. While Islamic law permits a man to marry up to four wives, the Maliki school requires that the husband must be able to deal justly with all wives, both financially and in terms of time and treatment (Qur'an 4:3, 'if you fear that you shall not be able to deal justly, then only one'). The Maliki school further provides that a condition in the marriage contract that the husband will not take another wife, if agreed upon, is binding. More significantly, many northern Nigerian states have codified aspects of Sharia personal law. For example, Zamfara State's Sharia Penal Code and related laws often incorporate administrative requirements for polygamy, such as registering the marriage with the relevant Sharia court. The first wife may petition for divorce (khul') if she cannot accept a polygamous union, and the Sharia court may order the husband to pay compensation. However, in the absence of an express contractual prohibition or a state law requiring consent, traditional Maliki law does not require the wife's permission for a subsequent marriage.",
+      "source": "Maliki school of Islamic jurisprudence; Qur'an 4:3; Zamfara State Sharia Administration of Justice Law"
+    },
+    {
+      "id": "ng-sharia-003",
+      "input": "A Muslim man dies intestate in Kano State, survived by his wife, one son, and two daughters. Under Islamic (Maliki) law as applied in northern Nigeria, how is his estate distributed? The extended family claims that the wife is entitled to only one-eighth of the estate. Is this correct?",
+      "target": "Yes, the extended family is correct regarding the wife's share. Under Islamic inheritance law as applied in Nigeria (Maliki school), the fixed shares are derived from the Qur'an (Surah 4:11-12). When the deceased is survived by a spouse and children, the wife is entitled to one-eighth (1/8) of the estate. The residue is distributed among the children according to the rule that a son receives twice the share of a daughter (the 'double share' rule: 2:1 ratio). Thus, if the residue after the wife's 1/8 share is 7/8, it is divided as follows: the son receives 2 shares, each daughter receives 1 share, for a total of 4 shares (2+1+1). So each share = 7/8 ÷ 4 = 7/32. The son receives 7/16, and each daughter receives 7/32. The wife receives 4/32 (1/8). Note that this rule of unequal distribution between sons and daughters may raise constitutional questions under section 42 of the Constitution (non-discrimination), though Nigerian courts have generally been reluctant to interfere with core Sharia inheritance rules for Muslims who submit to Sharia jurisdiction.",
+      "source": "Qur'an 4:11-12; Maliki school of Islamic jurisprudence; Constitution of Nigeria 1999, s. 42"
+    }
+  ]
+}
