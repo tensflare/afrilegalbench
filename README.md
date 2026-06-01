@@ -1,36 +1,70 @@
 # AfriLegalBench
 
-**African Legal AI Benchmark** — evaluating LLM legal reasoning across African jurisdictions.
+Evaluating LLM legal reasoning across African jurisdictions.
 
-LegalBench (NeurIPS 2023) explicitly acknowledges it "skews towards US Federal law," has "no multilingual or non-English tasks," and excludes other jurisdictions. Harvey's LAB (2026) is also US/UK focused. No benchmark exists for any of Africa's 54 jurisdictions.
+## The gap
 
-AfriLegalBench fills that gap.
+Existing legal benchmarks (LegalBench, NeurIPS 2023; Harvey's LAB, 2026) are built on US and UK law. Neither covers Africa's 54 jurisdictions, pluralistic legal systems, or multilingual proceedings. LegalBench explicitly notes it "skews towards US Federal law" and includes "no multilingual or non-English tasks."
+
+AfriLegalBench addresses this gap — a structured evaluation suite for legal reasoning in African legal contexts.
 
 ## Scope (Phase 1)
 
-| Jurisdiction | Legal System | Languages | Status |
+| Jurisdiction | Legal system | Languages | Status |
 |---|---|---|---|
-| Nigeria | Common law + Customary + Sharia | English + 400+ | Planning |
-| South Africa | Roman-Dutch + English + Customary | 11 official | Planning |
-| Kenya | Common law + Customary + Islamic | English, Swahili | Planning |
+| Nigeria | Common law, Customary, Sharia | English + 400+ | Planning |
+| South Africa | Roman-Dutch, English, Customary | 11 official | Planning |
+| Kenya | Common law, Customary, Islamic | English, Swahili | Planning |
 
-## Task categories
+## Reasoning categories
 
-- Statute interpretation & retrieval
-- Case citation verification
-- Customary law reasoning
-- Multilingual statute retrieval
-- Long document understanding
-- Multi-jurisdictional citation analysis
+Following LegalBench's taxonomy (6 categories) plus four additions for African legal contexts:
 
-## Structure
+- **Statute interpretation & retrieval** — given a fact pattern, identify and apply the relevant statute
+- **Case citation verification** — does a cited case stand for the proposition attributed to it?
+- **Customary law reasoning** — how would this dispute be resolved under applicable customary law?
+- **Multilingual statute retrieval** — given a query in one language, find the relevant statute in another
+- **Long document understanding** — clause detection in full judgments (50+ pages)
+- **Multi-jurisdictional citation analysis** — when does a court cite foreign precedent?
+- **Legal system identification** — does this fact pattern fall under common law, customary law, or Sharia?
+- **Analogical reasoning** — is case A analogous to case B within or across jurisdictions?
+
+## Task format
+
+Each task is a JSON file conforming to the [task schema](tasks/task_schema.json) and compatible with LegalBench evaluation pipelines:
+
+```json
+{
+  "task_name": "nigeria-customary-inheritance",
+  "jurisdiction": "nigeria",
+  "legal_system": ["common_law", "customary_law"],
+  "reasoning_type": "rule_application",
+  "dataset": [
+    {
+      "id": "ng-custom-001",
+      "input": "...",
+      "target": "...",
+      "source": "Supreme Court of Nigeria, ..."
+    }
+  ]
+}
+```
+
+## Data sources
+
+- SAFLII (Southern African Legal Information Institute) — open access case law
+- NigeriaLII — open access case law and legislation
+- KenyaLII — open access case law and legislation
+- National statute repositories (public domain)
+
+## Repository structure
 
 ```
-tasks/          — Task definitions (JSON, LegalBench-compatible)
-data/           — Raw and processed datasets
-scripts/        — Data collection and annotation pipelines
-docs/           — Methodology and jurisdiction notes
-notebooks/      — Exploratory analysis
+tasks/          — task definitions (JSON, LegalBench-compatible)
+data/           — raw and processed datasets
+scripts/        — data collection and annotation pipelines
+docs/           — methodology, jurisdiction notes
+notebooks/      — exploratory analysis
 ```
 
 ## License
