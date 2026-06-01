@@ -1,0 +1,27 @@
+{
+  "task_name": "kenya-evidence-act",
+  "jurisdiction": "kenya",
+  "legal_system": ["common_law"],
+  "reasoning_type": "rule_application",
+  "languages": ["en"],
+  "dataset": [
+    {
+      "id": "ke-evidence-001",
+      "input": "In a criminal trial for defilement, the prosecution seeks to rely on the sole evidence of the minor victim. The defence argues that the evidence is uncorroborated and therefore insufficient to support a conviction. Under the Evidence Act (Cap 80, Laws of Kenya), is corroboration required for the evidence of a minor victim in a sexual offence case?",
+      "target": "No, corroboration is not required as a matter of law. Section 124 of the Evidence Act (Cap 80) provides that in criminal proceedings involving a sexual offence, the court may convict the accused on the sole evidence of the victim if the court is satisfied that the victim is truthful. However, section 19 of the Oaths and Statutory Declarations Act requires the court to examine a child of tender years to determine whether they understand the nature of an oath. If the child does not understand the oath, their unsworn evidence may be admitted but requires corroboration (section 19(2)). The Court of Appeal in Patrick Gachuru Mwangi v Republic (2019) affirmed that while the trial court must warn itself of the danger of convicting on uncorroborated evidence in sexual offences, the evidence of a single witness can support a conviction if the court records its reasons for being satisfied that the witness is credible. The requirement is one of satisfaction of the court, not a mandatory corroboration requirement.",
+      "source": "Evidence Act (Cap 80), s. 124; Oaths and Statutory Declarations Act, s. 19"
+    },
+    {
+      "id": "ke-evidence-002",
+      "input": "A party in a civil suit seeks to adduce a computer-generated document (a bank statement) as evidence. The other party objects, arguing that without calling a system administrator to testify about the computer system's reliability, the document is inadmissible. Under sections 106A-106B of the Evidence Act (Cap 80), how should the court rule?",
+      "target": "The court should admit the document. Sections 106A and 106B of the Evidence Act (Cap 80) govern the admissibility of electronic evidence. Section 106B(1) provides that electronic records are admissible as evidence if they are: (a) produced by a computer in the ordinary course of its activities; and (b) the computer was operating properly at the material time, or if not, the malfunction did not affect the record's integrity. Section 106B(2) provides that a certificate signed by a person in a responsible position identifying the electronic record and describing how it was produced is sufficient evidence of compliance with these requirements, unless the court directs otherwise. The party tendering the document may produce a certificate under section 106B(2) signed by an officer of the bank, without needing to call a system administrator. The court retains discretion under section 106B(4) to review the record's admissibility if there are reasonable grounds to doubt its authenticity.",
+      "source": "Evidence Act (Cap 80), ss. 106A, 106B"
+    },
+    {
+      "id": "ke-evidence-003",
+      "input": "In a criminal trial, the prosecution seeks to adduce a confession alleged to have been made by the accused to a police officer. The accused objects, stating that the confession was obtained through torture. Under the Evidence Act (Cap 80) and the Constitution of Kenya 2010, what test must the court apply before admitting a confession made to a police officer?",
+      "target": "Under the Constitution of Kenya 2010 Article 25(a), freedom from torture and cruel, inhuman, or degrading treatment or punishment is a non-derogable right. Article 50(4) provides that evidence obtained in violation of any right or fundamental freedom shall be excluded if its admission would render the trial unfair or would otherwise be detrimental to the administration of justice. Under section 25A(1) of the Evidence Act (Cap 80), a confession made to a police officer is inadmissible unless it is recorded in video or audio format, or reduced to writing and signed in the presence of a third-party witness. Section 25A(3) requires the court to conduct a trial within a trial (voir dire) to determine the voluntariness of the confession where a dispute arises. The prosecution bears the burden of proving beyond a reasonable doubt that the confession was voluntary and not obtained through oppression, torture, or inducement. If the accused raises a credible allegation of torture, the court must exclude the confession under Article 50(4) for being obtained in violation of the right against torture.",
+      "source": "Constitution of Kenya 2010, arts. 25(a), 50(4); Evidence Act (Cap 80), s. 25A"
+    }
+  ]
+}

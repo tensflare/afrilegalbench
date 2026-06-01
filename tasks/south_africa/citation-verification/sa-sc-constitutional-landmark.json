@@ -1,0 +1,27 @@
+{
+  "task_name": "sa-sc-constitutional-landmark",
+  "jurisdiction": "south_africa",
+  "legal_system": ["roman_dutch_law"],
+  "reasoning_type": "analogical_reasoning",
+  "languages": ["en"],
+  "dataset": [
+    {
+      "id": "za-cite-001",
+      "input": "Does S v Makwanyane 1995 (3) SA 391 (CC) stand for the proposition that the death penalty is unconstitutional in South Africa because it violates the right to life and the right to dignity, and that Ubuntu is a foundational value in South African constitutional interpretation?",
+      "target": "Yes. In S v Makwanyane 1995 (3) SA 391 (CC), the Constitutional Court of South Africa (per Chaskalson P) held that the death penalty was inconsistent with the Constitution of the Republic of South Africa Act 200 of 1993 (the interim Constitution). The Court found that the death penalty violated the right to life (section 9) and the right to dignity (section 10), and could not be justified under the limitation clause. Justice Mokgoro introduced the concept of Ubuntu as a constitutional value, describing it as 'a culture which places some emphasis on communality and on the interdependence of the members of a community.' This case is the most cited South African constitutional case and established Ubuntu as a principle of South African constitutional law.",
+      "source": "S v Makwanyane 1995 (3) SA 391 (CC)"
+    },
+    {
+      "id": "za-cite-002",
+      "input": "Does Barkhuizen v Napier 2007 (5) SA 323 (CC) stand for the proposition that a contractual time-bar clause that requires a claim to be brought within 30 days is automatically unconstitutional and unenforceable?",
+      "target": "No. Barkhuizen v Napier 2007 (5) SA 323 (CC) did not hold that time-bar clauses are automatically unconstitutional. The Constitutional Court established a two-stage test for determining whether a contractual clause is contrary to public policy (and therefore unenforceable) under the Constitution: (a) whether the clause itself is contrary to public policy in a constitutional sense — the court must consider whether the clause is 'manifestly unfair, unjust, or unreasonable' to the extent that it offends constitutional values; and (b) whether enforcing the clause in the particular circumstances would be contrary to public policy — the court must consider whether the circumstances of the case, including the relative bargaining positions of the parties, make enforcement unjust. The Court remitted the case for determination on the second stage. The 30-day time-bar in the insurance policy was not found to be inherently unconstitutional; rather, the question was whether its enforcement in the specific circumstances would be unfair.",
+      "source": "Barkhuizen v Napier 2007 (5) SA 323 (CC)"
+    },
+    {
+      "id": "za-cite-003",
+      "input": "Does Shilubana v Nwamitwa 2009 (2) SA 66 (CC) stand for the proposition that a customary law community may develop its customs to grant equal rights to women, and that South African courts must recognise such developments?",
+      "target": "Yes. In Shilubana v Nwamitwa 2009 (2) SA 66 (CC), the Constitutional Court held that a traditional community (the Valoyi tribe) was entitled to develop its own customary law to permit a woman to succeed to the position of traditional leader (Hosi). The Court held that customary law is not static — it develops over time to reflect changing social values. The community's decision to appoint Ms Shilubana as Hosi was a legitimate development of customary law, and the courts must recognise such developments. The Court also held that the development of customary law must be consistent with constitutional values, particularly the right to equality and freedom from gender discrimination (sections 9 and 10 of the Constitution). This case affirmed both the dynamism of customary law and the constitutional imperative to eliminate gender discrimination in all legal systems.",
+      "source": "Shilubana v Nwamitwa 2009 (2) SA 66 (CC)"
+    }
+  ]
+}

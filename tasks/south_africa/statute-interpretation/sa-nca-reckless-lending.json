@@ -1,0 +1,27 @@
+{
+  "task_name": "sa-nca-reckless-lending",
+  "jurisdiction": "south_africa",
+  "legal_system": ["roman_dutch_law"],
+  "reasoning_type": "rule_application",
+  "languages": ["en"],
+  "dataset": [
+    {
+      "id": "za-nca-001",
+      "input": "A consumer applies for a personal loan of R150,000 from a bank. The bank approves the loan without requesting any proof of income, expenses, or existing debt obligations. The consumer later defaults. The consumer argues that the credit agreement was reckless under the National Credit Act 34 of 2005. Is the consumer correct?",
+      "target": "Yes. Section 80(1)(a) of the National Credit Act provides that a credit agreement is reckless if the credit provider failed to conduct an assessment as required by section 81, irrespective of whether the consumer was over-indebted at the time. Section 81 requires the credit provider to take reasonable steps to assess: (a) the consumer's existing financial means, prospects, and obligations; (b) the consumer's debt repayment history; and (c) whether the consumer generally understands the risks and costs of the proposed credit. By approving the loan without requesting any proof of income or expenses, the bank failed to conduct a proper assessment, making the agreement reckless under section 80(1)(a).",
+      "source": "National Credit Act 34 of 2005, ss. 80(1)(a), 81"
+    },
+    {
+      "id": "za-nca-002",
+      "input": "A consumer applies for a credit card with a R50,000 limit. The bank conducts a proper affordability assessment and determines that the consumer's monthly disposable income of R8,000 can comfortably service the minimum payments. The consumer later loses their job and defaults. Is the credit agreement reckless under the National Credit Act?",
+      "target": "No. The credit agreement is not reckless under the National Credit Act, provided the bank's assessment was reasonable at the time it was conducted. Section 80(1)(b) defines reckless credit as occurring where the credit provider, having conducted the assessment, entered into the agreement despite the fact that the consumer did not generally understand or appreciate the risks, or that entering into the agreement would make the consumer over-indebted. The test is prospective (at the time of the agreement) and the bank's assessment was reasonable based on the information available at that time. The subsequent loss of employment is a supervening event that does not retroactively render the agreement reckless, though the consumer may apply for debt review under section 86 if they become over-indebted.",
+      "source": "National Credit Act 34 of 2005, ss. 80(1)(b), 86"
+    },
+    {
+      "id": "za-nca-003",
+      "input": "A court declares a credit agreement reckless under section 80 of the National Credit Act on the ground that the credit provider failed to conduct a proper affordability assessment. What orders can the court make in respect of the consumer's obligations under the agreement?",
+      "target": "Under section 83(2) of the National Credit Act, if a credit agreement is found to be reckless solely because the credit provider failed to conduct a proper assessment (section 80(1)(a)), the court may make an order setting aside all or part of the consumer's rights and obligations under the agreement, or suspending the agreement. Under section 83(3), if the agreement is found to have been reckless because the consumer would have been over-indebted at the time (section 80(1)(b)(ii)), the court may restructure the consumer's obligations. If both grounds apply, the court may make any order under section 83(2) or (3). The practical consequence of a finding of reckless lending under section 80(1)(a) is that the consumer may be relieved of all obligations, including repayment of the capital amount, though courts have discretion to make orders that are just and equitable.",
+      "source": "National Credit Act 34 of 2005, s. 83(2), (3)"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "task_name": "kenya-sc-constitutional",
+  "jurisdiction": "kenya",
+  "legal_system": ["common_law"],
+  "reasoning_type": "analogical_reasoning",
+  "languages": ["en"],
+  "dataset": [
+    {
+      "id": "ke-cite-001",
+      "input": "Does the case of Coalition for Reform and Democracy (CORD) v Republic of Kenya [2015] eKLR stand for the proposition that the Constitution of Kenya 2010 must be interpreted purposively, and that the text alone is insufficient without considering the historical context and the objectives of the constitutional project?",
+      "target": "Yes. In Coalition for Reform and Democracy (CORD) v Republic of Kenya [2015] eKLR (the 'CORD case'), the Supreme Court of Kenya (per Mutunga CJ) articulated the interpretive approach to the Constitution of Kenya 2010. The Court held that the Constitution is a transformative document that must be interpreted purposively, with due regard to the historical context of its adoption, including the struggle for democratic governance, human rights, and social justice. The Court rejected a narrow, textualist approach and adopted a holistic interpretation that considers the Constitution's values, principles, and objectives as a whole. The case is a landmark on constitutional interpretation in Kenya and established the 'transformative constitutionalism' approach followed by Kenyan courts.",
+      "source": "Coalition for Reform and Democracy (CORD) v Republic of Kenya [2015] eKLR"
+    },
+    {
+      "id": "ke-cite-002",
+      "input": "Does the case of Mumo Matemu v Trusted Society of Human Rights Alliance [2013] eKLR stand for the proposition that locus standi in constitutional litigation in Kenya is restricted to persons with a direct personal interest in the matter?",
+      "target": "No. Mumo Matemu v Trusted Society of Human Rights Alliance [2013] eKLR held the opposite — that locus standi in constitutional matters in Kenya is broad and liberal. The Court of Appeal rejected the restrictive approach under the former Constitution and held that Article 22 of the Constitution 2010 creates a broad standing regime that allows any person to institute proceedings claiming a violation of the Bill of Rights. The Court cited Article 22(2), which permits public interest litigation, class actions, and associational standing. The Court held that the rigid common law rules of standing that required a direct personal interest have been displaced by the Constitution's expansive approach. However, the court must still ensure that the applicant has a genuine interest in the matter and is not a mere busybody. This case is the leading authority on the liberalisation of locus standi under the 2010 Constitution.",
+      "source": "Mumo Matemu v Trusted Society of Human Rights Alliance [2013] eKLR"
+    },
+    {
+      "id": "ke-cite-003",
+      "input": "Does the case of In re the Matter of the National Land Commission [2014] eKLR stand for the proposition that the National Land Commission and the Ministry of Lands have concurrent jurisdiction over the management of public land?",
+      "target": "No, this is not the correct holding. In re the Matter of the National Land Commission [2014] eKLR (Advisory Opinion Reference No. 2 of 2014), the Supreme Court of Kenya clarified the distinct and separate roles of the National Land Commission (NLC) and the Ministry of Lands. The Court held that the NLC is responsible for the management of public land under Article 67(2) of the Constitution, while the Ministry of Lands is responsible for land registration and administration of land policy under the Land Registration Act and related statutes. The Court held that these functions are not concurrent but complementary — each body exercises its constitutionally assigned functions within its own sphere. The case resolved the jurisdictional conflict between the NLC and the Ministry and established a framework for their respective roles.",
+      "source": "In re the Matter of the National Land Commission [2014] eKLR (Advisory Opinion Reference No. 2 of 2014)"
+    }
+  ]
+}

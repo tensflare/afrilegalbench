@@ -1,0 +1,21 @@
+{
+  "task_name": "kenya-sc-land-human-rights",
+  "jurisdiction": "kenya",
+  "legal_system": ["common_law"],
+  "reasoning_type": "analogical_reasoning",
+  "languages": ["en"],
+  "dataset": [
+    {
+      "id": "ke-cite-004",
+      "input": "Does the case of Mitu-Bell Welfare Society v Kenya Airports Authority [2014] eKLR stand for the proposition that the eviction of persons from their homes without adequate procedural safeguards and without provision of alternative accommodation violates the right to housing under Article 43 of the Constitution?",
+      "target": "Yes. In Mitu-Bell Welfare Society v Kenya Airports Authority [2014] eKLR, the High Court of Kenya at Nairobi held that the eviction of approximately 6,000 residents from land belonging to the Kenya Airports Authority without notice, consultation, or provision of alternative accommodation violated the residents' constitutional rights, including: (a) the right to accessible and adequate housing under Article 43(1)(b); (b) the right to human dignity under Article 28; (c) the right to be heard under Article 47 (fair administrative action); and (d) the right to access to justice under Article 48. The Court held that even where persons occupy land illegally, the State must follow due process and provide alternative accommodation before eviction. The case is a leading authority on the protection of informal settlers' rights under the 2010 Constitution.",
+      "source": "Mitu-Bell Welfare Society v Kenya Airports Authority [2014] eKLR"
+    },
+    {
+      "id": "ke-cite-005",
+      "input": "Does the case of John Kimani Njenga v Charles Karuri (2019) eKLR stand for the proposition that a right of way easement can be extinguished by mere non-use for a period of 12 years under the Limitations of Actions Act?",
+      "target": "No. In John Kimani Njenga v Charles Karuri (2019) eKLR, the Court of Appeal held that an easement (right of way) acquired by prescription is not extinguished by mere non-use. The Court distinguished between the acquisition of an easement by prescription (which requires 12 years of use under the Prescription Act) and the extinguishment of an easement. The Court held that an easement may be extinguished only by: (a) express release in writing; (b) implied release through the conduct of the dominant owner clearly indicating an intention to abandon the easement; (c) merger of the dominant and servient tenements; or (d) a court order. Non-use alone, even for 12 years, does not constitute abandonment. The party asserting abandonment must prove that the dominant owner intended to abandon the easement permanently — mere non-use is insufficient unless accompanied by clear evidence of intention to abandon.",
+      "source": "John Kimani Njenga v Charles Karuri (2019) eKLR"
+    }
+  ]
+}

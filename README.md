@@ -12,9 +12,9 @@ AfriLegalBench addresses this gap — a structured evaluation suite for legal re
 
 | Jurisdiction | Legal system | Languages | Status |
 |---|---|---|---|
-| Nigeria | Common law, Customary, Sharia | English + 400+ | Planning |
-| South Africa | Roman-Dutch, English, Customary | 11 official | Planning |
-| Kenya | Common law, Customary, Islamic | English, Swahili | Planning |
+| Nigeria | Common law, Customary, Sharia | English + 400+ | Live — 20 tasks, 62 examples |
+| South Africa | Roman-Dutch, English, Customary | 11 official | Live — 7 tasks, 20 examples |
+| Kenya | Common law, Customary, Islamic | English, Swahili | Live — 6 tasks, 17 examples |
 
 ## Reasoning categories
 

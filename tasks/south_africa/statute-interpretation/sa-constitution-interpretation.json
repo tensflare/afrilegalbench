@@ -1,0 +1,27 @@
+{
+  "task_name": "sa-constitution-interpretation",
+  "jurisdiction": "south_africa",
+  "legal_system": ["roman_dutch_law", "common_law"],
+  "reasoning_type": "rule_interpretation",
+  "languages": ["en"],
+  "dataset": [
+    {
+      "id": "za-const-001",
+      "input": "A court is interpreting a provision of the Bill of Rights that limits the right to freedom of expression. A party argues that the court must adopt a purely textual interpretation based on the ordinary meaning of the words used. Is this approach consistent with section 39 of the Constitution of the Republic of South Africa, 1996?",
+      "target": "No. Section 39(1) of the Constitution provides that when interpreting the Bill of Rights, a court, tribunal, or forum (a) must promote the values that underlie an open and democratic society based on human dignity, equality, and freedom; (b) must consider international law; and (c) may consider foreign law. Section 39(2) further requires that when interpreting any legislation and when developing the common law or customary law, every court, tribunal, or forum must promote the spirit, purport, and objects of the Bill of Rights. A purely textual interpretation is inadequate — the court must adopt a purposive, value-based approach consistent with the transformative character of the Constitution.",
+      "source": "Constitution of the Republic of South Africa, 1996, s. 39"
+    },
+    {
+      "id": "za-const-002",
+      "input": "A provincial legislature passes a law that conflicts with an Act of the national Parliament on a matter listed in Schedule 4 (Functional Areas of Concurrent National and Provincial Legislative Competence). The provincial law is more restrictive than the national law. Which law prevails under the Constitution?",
+      "target": "Section 146 of the Constitution provides that a national law prevails over a provincial law if: (a) the national law deals with a matter that cannot be regulated effectively by provincial legislation; (b) the national law deals with a matter that requires uniformity across the nation; (c) the national law is necessary for the maintenance of national security, economic unity, essential national standards, or the protection of the common market in respect of the mobility of goods, services, capital, or labour; or (d) the national law is necessary to prevent unreasonable action by a province that prejudices the economic, health, or security interests of another province or the country as a whole. If none of these conditions apply, the provincial law prevails within its sphere. If there is a conflict and neither section 146 nor 147 resolves it, section 148 provides for a justiciable dispute resolution.",
+      "source": "Constitution of the Republic of South Africa, 1996, ss. 146-148"
+    },
+    {
+      "id": "za-const-003",
+      "input": "A municipality fails to provide basic sanitation services to a low-income community, citing budget constraints. The community brings a constitutional challenge. Under the South African Constitution, what is the nature of the state's obligation regarding the right of access to sufficient water and sanitation?",
+      "target": "Section 27(1)(b) of the Constitution provides that everyone has the right of access to sufficient water. Section 27(2) imposes a positive obligation on the state to take reasonable legislative and other measures, within its available resources, to achieve the progressive realisation of this right. In Government of the Republic of South Africa v Grootboom (2001), the Constitutional Court interpreted this to mean that the state's programme must be reasonable in conception and implementation, and must be comprehensive, coherent, and balanced. While the standard is one of progressive realisation within available resources, the state cannot justify total inaction or manifestly unreasonable programmes by pleading resource constraints. The municipality's failure to provide any sanitation services may be unconstitutional if its overall programme is not reasonable.",
+      "source": "Constitution of the Republic of South Africa, 1996, s. 27; Government of the Republic of South Africa v Grootboom 2001 (1) SA 46 (CC)"
+    }
+  ]
+}

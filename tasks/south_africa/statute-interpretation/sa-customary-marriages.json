@@ -1,0 +1,27 @@
+{
+  "task_name": "sa-customary-marriages",
+  "jurisdiction": "south_africa",
+  "legal_system": ["roman_dutch_law", "customary_law"],
+  "reasoning_type": "rule_application",
+  "languages": ["en"],
+  "dataset": [
+    {
+      "id": "za-custom-001",
+      "input": "A man and a woman enter into a customary marriage that complies with the requirements of the Recognition of Customary Marriages Act 120 of 1998. The marriage is not registered with the Department of Home Affairs. The husband later dies intestate, and the deceased's family argues that the surviving spouse is not entitled to inherit because the marriage was not registered. Is the unregistered customary marriage valid for purposes of inheritance under South African law?",
+      "target": "Yes, the unregistered customary marriage is valid. Section 4(9) of the Recognition of Customary Marriages Act 120 of 1998 provides that the failure to register a customary marriage does not affect its validity. The requirements for validity under section 3 are: (a) the prospective spouses must be over 18 and must consent to the marriage; (b) they must not be married to each other under the Marriage Act; and (c) the marriage must be negotiated, entered into, and celebrated in accordance with customary law. Registration is merely a facilitative requirement, not a constitutive one. The Constitutional Court in Gumede v President of the Republic of South Africa (2009) confirmed that customary marriages are entitled to full legal recognition, including for purposes of inheritance under the Intestate Succession Act.",
+      "source": "Recognition of Customary Marriages Act 120 of 1998, ss. 3, 4(9); Gumede v President of the Republic of South Africa 2009 (3) SA 152 (CC)"
+    },
+    {
+      "id": "za-custom-002",
+      "input": "A man in a customary marriage wishes to enter into a second customary marriage with another woman without obtaining the consent of his first wife. The first wife discovers the second marriage and challenges its validity. Under the Recognition of Customary Marriages Act and the Constitutional Court's decision in Mayelane v Ngwenyama (2013), is the second marriage valid without the first wife's consent?",
+      "target": "No, the second marriage is not valid without the first wife's consent. In Mayelane v Ngwenyama 2013 (4) SA 415 (CC), the Constitutional Court held that under Xitsonga customary law (as applied in the case), a husband who wishes to enter into a further customary marriage must obtain the consent of his existing wife or wives. The Court held that this requirement is consistent with the constitutional values of human dignity, equality, and the advancement of gender equality. The Court also noted that the requirement is not unique to Xitsonga custom — a similar requirement exists under many South African customary law systems. Without the first wife's consent, the second marriage does not meet the requirement under section 3(1)(b) of the Act that the marriage must be 'negotiated and entered into in accordance with customary law.'",
+      "source": "Recognition of Customary Marriages Act 120 of 1998, s. 3(1)(b); Mayelane v Ngwenyama 2013 (4) SA 415 (CC)"
+    },
+    {
+      "id": "za-custom-003",
+      "input": "A woman married under customary law applies for a protection order against her husband under the Domestic Violence Act, alleging physical abuse. The husband argues that the court cannot intervene because lobolo (bride price) was paid and customary law gives him authority over his wife. Can the court grant the protection order?",
+      "target": "Yes, the court can and should grant the protection order. Section 8(1) of the Domestic Violence Act 116 of 1998 provides that a complainant may apply for a protection order in respect of any act of domestic violence. The Act applies regardless of the legal system under which the marriage was concluded. The payment of lobolo does not diminish a woman's constitutional rights to dignity, freedom, and security of the person under sections 10, 11, and 12 of the Constitution. Any customary law rule that purported to give a husband authority to commit domestic violence would be invalid under section 39(2) and 8(3) of the Constitution, as developed in the light of the spirit, purport, and objects of the Bill of Rights. The Constitutional Court in S v Baloyi (2000) affirmed the state's obligation to address domestic violence as a serious societal problem.",
+      "source": "Domestic Violence Act 116 of 1998, s. 8(1); Constitution of South Africa 1996, ss. 10, 11, 12"
+    }
+  ]
+}

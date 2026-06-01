@@ -1,0 +1,35 @@
+{
+  "jurisdiction": "south_africa",
+  "phase": 2,
+  "total_task_files": 7,
+  "total_examples": 20,
+  "categories": {
+    "statute_interpretation": {
+      "count": 5,
+      "tasks": [
+        "sa-constitution-interpretation",
+        "sa-nca-reckless-lending",
+        "sa-labour-law-unfair-dismissal",
+        "sa-customary-marriages",
+        "sa-law-of-delict"
+      ]
+    },
+    "citation_verification": {
+      "count": 2,
+      "tasks": [
+        "sa-sc-constitutional-landmark",
+        "sa-sc-property-contract"
+      ]
+    }
+  },
+  "data_sources": [
+    "SAFLII (saflii.org)",
+    "Constitution of the Republic of South Africa, 1996",
+    "National Credit Act 34 of 2005",
+    "Labour Relations Act 66 of 1995",
+    "Recognition of Customary Marriages Act 120 of 1998",
+    "Domestic Violence Act 116 of 1998",
+    "Constitutional Court of South Africa judgments"
+  ],
+  "annotator_notes": "All tasks in English. Statute interpretation covers constitutional, consumer credit, labour, customary marriage, and delict law. Citation verification covers landmark Constitutional Court decisions on death penalty, contractual public policy, and customary law evolution."
+}

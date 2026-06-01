@@ -1,0 +1,27 @@
+{
+  "task_name": "sa-labour-law-unfair-dismissal",
+  "jurisdiction": "south_africa",
+  "legal_system": ["roman_dutch_law"],
+  "reasoning_type": "rule_application",
+  "languages": ["en"],
+  "dataset": [
+    {
+      "id": "za-labour-001",
+      "input": "An employee is dismissed for repeatedly arriving late to work over a period of two months. The employer followed a disciplinary process and issued two prior written warnings. At the disciplinary hearing, the employee admitted the lateness but explained it was due to unreliable public transport. The employer dismissed the employee citing the cumulative effect of the misconduct. The employee challenges the dismissal as unfair. Was the dismissal substantively fair under the Labour Relations Act 66 of 1995?",
+      "target": "The dismissal may be substantively unfair depending on the circumstances. Under Schedule 8 (Code of Good Practice: Dismissal) of the Labour Relations Act 66 of 1995, dismissal for misconduct is justified only if: (a) the employee breached a rule regulating conduct in the workplace; (b) the rule was valid and reasonable; (c) the employee was aware or could reasonably be expected to have been aware of the rule; (d) the rule was consistently applied; and (e) dismissal was an appropriate sanction in the circumstances. The Code provides that dismissal should be reserved for serious misconduct or repeated offences. While prior warnings were issued, the employee's explanation of unreliable public transport raises the question of whether the employer could have applied a less drastic sanction. The employer's obligation is to consider mitigating factors and proportionality before deciding to dismiss. A court or CCMA commissioner would assess whether dismissal was the appropriate sanction or whether a final written warning would have sufficed.",
+      "source": "Labour Relations Act 66 of 1995, Schedule 8 (Code of Good Practice: Dismissal)"
+    },
+    {
+      "id": "za-labour-002",
+      "input": "An employee who has been employed for 11 months is dismissed for operational requirements (retrenchment) due to the employer's business restructuring. The employer selects the employee for retrenchment based on the principle of 'last in, first out' (LIFO). The employee alleges that the dismissal is automatically unfair because the selection criteria were not agreed upon in advance. Is the dismissal automatically unfair?",
+      "target": "No, the dismissal is not automatically unfair, but it may be substantively unfair if the selection criteria were not fair and objective. Under section 189 of the Labour Relations Act 66 of 1995, when dismissing for operational requirements, the employer must comply with a fair procedure including consultation with the employee or their representative. Section 189(7) requires the employer to select employees for dismissal based on criteria that are: (a) agreed upon with the consulting party; or (b) if no agreement is reached, criteria that are fair and objective. The 'last in, first out' principle has been held to be a fair and objective criterion in South African labour law, even if not agreed upon, provided it is applied consistently and without discrimination. However, the employer must still comply with the procedural fairness requirements of section 189, including proper consultation, notice, and consideration of alternatives.",
+      "source": "Labour Relations Act 66 of 1995, ss. 189, 189A"
+    },
+    {
+      "id": "za-labour-003",
+      "input": "A trade union representing workers at a factory demands that the employer recognise it for collective bargaining purposes. The employer refuses, citing the fact that the union represents only 20% of the workforce. Is the employer justified in refusing recognition under the Labour Relations Act?",
+      "target": "The employer's position is partially justified but subject to important qualifications. Under section 16 of the Labour Relations Act 66 of 1995, a representative trade union (one with sufficient membership — typically at least 30-50% depending on the bargaining council's constitution or LRA provisions) has the right to recognition for collective bargaining. Section 18 provides that a trade union with sufficient representation has the right to disclose information necessary for effective collective bargaining. However, the Act does not impose a specific percentage threshold for recognition — the threshold is typically determined by collective agreements, bargaining council constitutions, or sectoral determinations. With only 20% membership, the union may not meet the threshold for exclusive recognition. The employer may be justified in refusing full recognition but must still grant the union certain organisational rights under section 12 (access to the workplace), section 13 (deduction of union subscriptions), section 14 (leave for union activities), and section 15 (access to information) if the union is sufficiently representative.",
+      "source": "Labour Relations Act 66 of 1995, ss. 12-16, 18"
+    }
+  ]
+}

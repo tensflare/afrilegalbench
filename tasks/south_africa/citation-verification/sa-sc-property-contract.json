@@ -1,0 +1,21 @@
+{
+  "task_name": "sa-sc-property-contract",
+  "jurisdiction": "south_africa",
+  "legal_system": ["roman_dutch_law"],
+  "reasoning_type": "analogical_reasoning",
+  "languages": ["en"],
+  "dataset": [
+    {
+      "id": "za-cite-004",
+      "input": "Does Grootboom v Oostenberg Municipality 2000 (3) BCLR 277 (C) — later affirmed as Government of the Republic of South Africa v Grootboom 2001 (1) SA 46 (CC) — stand for the proposition that the state's housing programme must include a reasonable component for temporary, emergency, or short-term relief for those in desperate need?",
+      "target": "Yes. In Government of the Republic of South Africa v Grootboom 2001 (1) SA 46 (CC), the Constitutional Court held that the state's housing programme under section 26 of the Constitution must be 'reasonable both in its conception and its implementation.' The Court found that the state's housing programme was unreasonable because it made no provision for those in 'desperate need' — people living in intolerable conditions who require immediate temporary relief while awaiting permanent housing. The Court held that a reasonable programme must comprehensively address all dimensions of the right, including providing for those at the 'most desperate end of the spectrum.' The case is the leading authority on the State's obligation to provide access to adequate housing under section 26 and established the 'reasonableness review' standard for enforcing socio-economic rights in South Africa.",
+      "source": "Government of the Republic of South Africa v Grootboom 2001 (1) SA 46 (CC)"
+    },
+    {
+      "id": "za-cite-005",
+      "input": "Does the case of Brisley v Drotsky 2002 (4) SA 1 (SCA) stand for the proposition that the Constitution requires courts to develop the common law of contract to invalidate any term that is contrary to public policy, regardless of whether the parties freely agreed to it?",
+      "target": "No, this overstates the holding. In Brisley v Drotsky 2002 (4) SA 1 (SCA), the Supreme Court of Appeal confirmed the principle of pacta sunt servanda (agreements must be kept) as a cornerstone of South African contract law. The Court held that the Constitution, while requiring courts to refuse to enforce contractual terms that offend public policy, does not entitle courts to rewrite contracts merely because they are disadvantageous to one party. The public policy test requires a showing that the term is 'manifestly unjust, unconscionable, or unreasonable' to the extent that it offends constitutional values. The Court cautioned against a 'culture of constitutional challenge' to contractual terms that are freely negotiated. The proper approach is a balanced one that respects both the constitutional values of dignity and freedom (which underlie pacta sunt servanda) and the constitutional protection against unfair contractual terms.",
+      "source": "Brisley v Drotsky 2002 (4) SA 1 (SCA)"
+    }
+  ]
+}

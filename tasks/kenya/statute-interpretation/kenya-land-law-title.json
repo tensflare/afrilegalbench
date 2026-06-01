@@ -1,0 +1,27 @@
+{
+  "task_name": "kenya-land-law-title",
+  "jurisdiction": "kenya",
+  "legal_system": ["common_law"],
+  "reasoning_type": "rule_application",
+  "languages": ["en"],
+  "dataset": [
+    {
+      "id": "ke-land-001",
+      "input": "A purchaser buys a parcel of land in Nairobi, relying on a title deed issued by the Lands Registry. After the sale, a third party emerges claiming ownership of the same land and produces an earlier title deed. An investigation reveals that the original title was fraudulently obtained by the seller before the purchaser acquired the land. The purchaser argues they are an innocent purchaser for value without notice of the fraud. Under the Land Registration Act 2012, is the purchaser's title protected?",
+      "target": "The answer depends on whether the purchaser's title was obtained through the statutory procedure. Under section 26(1) of the Land Registration Act 2012, a certificate of title is prima facie evidence of ownership and is 'conclusive evidence' that the person named is the proprietor. However, section 26(1)(a) provides that the title may be challenged on the ground of fraud or misrepresentation to which the proprietor (the purchaser) is proved to be a party, and section 26(1)(b) provides that the title may be challenged if the certificate of title has been acquired illegally, unprocedurally, or through a corrupt scheme. The Supreme Court in Torit Chemjor Wabuge v Kiprono Koske (2021) held that the 'conclusive evidence' provision in section 26 protects a bona fide purchaser for value who acquired the title through the proper procedures. However, if the root title itself was obtained through fraud, the title may still be impeached. The burden shifts to the registered proprietor to demonstrate that they acquired the title legally, procedurally, and in good faith.",
+      "source": "Land Registration Act 2012, s. 26"
+    },
+    {
+      "id": "ke-land-002",
+      "input": "A husband and wife purchase land together during their marriage, but the title is registered in the husband's name only. The wife contributed financially to the purchase. The husband subsequently sells the land to a third party without the wife's knowledge or consent. The wife claims that the sale was void because she had a beneficial interest in the land. Under Kenyan law, what interest, if any, does the wife have?",
+      "target": "Under the Matrimonial Property Act 2013, section 2 defines matrimonial property as property acquired during the marriage, property acquired before the marriage but used for the benefit of both spouses, or property jointly acquired. Section 9 provides that the title to matrimonial property must be registered in both spouses' names if the property is acquired during the marriage. Section 12 provides that a spouse has an equal right to occupy and use matrimonial property. However, the Constitution of Kenya 2010 Article 45(3) provides that parties to a marriage are entitled to equal rights at the time of marriage, during the marriage, and at the dissolution of the marriage. The wife's financial contribution gives her a beneficial interest in the land, even if her name is not on the title. She may pursue a claim in equity for a declaration of her beneficial interest. The purchaser may be found to have acquired the property subject to the wife's interest if the purchaser knew or ought to have known of the wife's interest, particularly if the property was the matrimonial home.",
+      "source": "Matrimonial Property Act 2013, ss. 2, 9, 12; Constitution of Kenya 2010, art. 45(3)"
+    },
+    {
+      "id": "ke-land-003",
+      "input": "The National Land Commission revokes a title deed on the ground that the land was allocated illegally to the original allottee. The current owner, who purchased the land in good faith and has developed it, challenges the revocation. Under the National Land Commission Act, what process must the Commission follow before revoking a title, and what are the owner's rights?",
+      "target": "Under section 14(5) of the National Land Commission Act 2012, the Commission may revoke a grant or disposition of public land if the grant or disposition was 'illegal, unprocedural or through a corrupt scheme.' However, the Commission must follow due process before revocation. The Commission is required to: (a) give notice to the registered proprietor of its intention to revoke; (b) afford the proprietor an opportunity to be heard; (c) consider all representations made; and (d) issue a reasoned decision. The revocation is subject to judicial review. The Court of Appeal in Nelson Ondiek Ogola v National Land Commission (2021) held that the Commission's power to revoke is not unfettered — it must act fairly, transparently, and proportionally. A bona fide purchaser who developed the land may be entitled to compensation if the title is revoked. The owner may also challenge the revocation at the Environment and Land Court under Article 162(2)(b) of the Constitution.",
+      "source": "National Land Commission Act 2012, s. 14(5); Constitution of Kenya 2010, art. 162(2)(b)"
+    }
+  ]
+}

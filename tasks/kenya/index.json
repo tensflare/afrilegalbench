@@ -1,0 +1,36 @@
+{
+  "jurisdiction": "kenya",
+  "phase": 2,
+  "total_task_files": 6,
+  "total_examples": 17,
+  "categories": {
+    "statute_interpretation": {
+      "count": 4,
+      "tasks": [
+        "kenya-constitution-bill-of-rights",
+        "kenya-land-law-title",
+        "kenya-companies-act",
+        "kenya-evidence-act"
+      ]
+    },
+    "citation_verification": {
+      "count": 2,
+      "tasks": [
+        "kenya-sc-constitutional",
+        "kenya-sc-land-human-rights"
+      ]
+    }
+  },
+  "data_sources": [
+    "KenyaLII (kenyalaw.org)",
+    "SAFLII (saflii.org)",
+    "Constitution of Kenya 2010",
+    "Land Registration Act 2012",
+    "National Land Commission Act 2012",
+    "Matrimonial Property Act 2013",
+    "Companies Act 2015",
+    "Evidence Act (Cap 80)",
+    "Supreme Court of Kenya judgments"
+  ],
+  "annotator_notes": "All tasks in English. Statute interpretation covers constitutional rights, land law, company law, and evidence. Citation verification covers Supreme Court and Court of Appeal decisions on constitutional interpretation, locus standi, land commission jurisdiction, evictions, and easements."
+}

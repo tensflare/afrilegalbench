@@ -1,0 +1,27 @@
+{
+  "task_name": "kenya-companies-act",
+  "jurisdiction": "kenya",
+  "legal_system": ["common_law"],
+  "reasoning_type": "rule_application",
+  "languages": ["en"],
+  "dataset": [
+    {
+      "id": "ke-company-001",
+      "input": "A director of a Kenyan company arranges for the company to enter into a contract with a business owned by the director's spouse. The director does not declare their interest to the board. The contract is on terms favourable to the company. Under the Companies Act 2015, has the director breached any duty?",
+      "target": "Yes. Section 134 of the Companies Act 2015 requires a director who has an interest (direct or indirect) in a proposed transaction or arrangement with the company to declare the nature and extent of that interest to the other directors before the transaction is entered into. An indirect interest includes an interest of a spouse or family member. Section 135 provides that a director who fails to make the required declaration commits an offence and is liable to a fine. Additionally, the director has breached the fiduciary duty under section 130(1) to avoid conflicts of interest and under section 131(1) to act in good faith in the best interests of the company. The transaction may be voidable at the instance of the company, and the director may be liable to account to the company for any profit made or to compensate the company for any loss suffered.",
+      "source": "Companies Act 2015, ss. 130, 131, 134, 135"
+    },
+    {
+      "id": "ke-company-002",
+      "input": "A private company limited by shares in Kenya wishes to reduce its share capital. The board of directors passes a resolution to cancel the unissued shares and reduce the nominal value of issued shares. The company's articles of association are silent on capital reduction. Is this procedure valid under the Companies Act 2015?",
+      "target": "No, the reduction of share capital requires more than a board resolution. Under section 156 of the Companies Act 2015, a company limited by shares may reduce its share capital by special resolution (75% majority of members voting in person or by proxy at a general meeting). If the proposed reduction involves any diminution of liability in respect of unpaid share capital, the company must apply to the court for confirmation under section 157(1). Even where no such diminution is involved, section 158(1) permits the company to pass a special resolution and register it with the Registrar. However, a board resolution alone is insufficient — the reduction must be approved by the members through a special resolution at a general meeting. Additionally, sections 159-160 contain safeguards for creditors, including the right to object to the reduction in certain circumstances.",
+      "source": "Companies Act 2015, ss. 156, 157, 158"
+    },
+    {
+      "id": "ke-company-003",
+      "input": "A shareholder of a public company in Kenya believes that the directors are managing the company in a way that is oppressive and unfairly prejudicial to the interests of the shareholders. The shareholder holds 3% of the company's issued shares. What remedy is available under the Companies Act 2015?",
+      "target": "Under section 253(1) of the Companies Act 2015, a member of a company may apply to the court for an order on the ground that the company's affairs are being conducted in a manner that is oppressive or unfairly prejudicial to the interests of the members generally or to that member in particular. Section 253(2) provides that the court may make such order as it thinks fit, including: (a) regulating the conduct of the company's affairs in the future; (b) requiring the company to refrain from doing or continuing to do a particular act; (c) authorising civil proceedings to be brought in the name of the company; (d) providing for the purchase of the shares of any member by other members or by the company itself; or (e) directing the company to amend its articles. The 3% shareholding is sufficient to bring the application — there is no minimum shareholding threshold for this remedy under the Act. However, the member must demonstrate that the conduct is both oppressive and unfairly prejudicial, which the courts have interpreted as conduct that burdens, harsh, or wrongful conduct that harms the member's interests.",
+      "source": "Companies Act 2015, s. 253"
+    }
+  ]
+}

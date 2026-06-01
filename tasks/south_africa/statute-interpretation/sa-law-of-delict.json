@@ -1,0 +1,27 @@
+{
+  "task_name": "sa-law-of-delict",
+  "jurisdiction": "south_africa",
+  "legal_system": ["roman_dutch_law"],
+  "reasoning_type": "rule_application",
+  "languages": ["en"],
+  "dataset": [
+    {
+      "id": "za-delict-001",
+      "input": "A bystander suffers severe emotional shock after witnessing a horrific car accident caused by a negligent driver. The bystander was not physically injured and was not related to any of the accident victims. Under South African law of delict, can the bystander claim damages for nervous shock?",
+      "target": "Under South African delictual law, a plaintiff can claim damages for nervous shock (psychiatric injury) only if certain requirements are met. The Supreme Court of Appeal in Barnard v Santam Bpk 1999 (1) SA 202 (SCA) and later cases confirmed that a bystander can recover for nervous shock where: (a) the psychiatric injury was foreseeable; (b) the relationship between the plaintiff and the primary victim was sufficiently close (not necessarily a blood relationship — a close emotional bond may suffice); (c) the plaintiff was present at the scene or its immediate aftermath; and (d) the shock was caused by the perception of the accident or its immediate consequences. A complete stranger with no relationship to the victims and no physical injury is unlikely to succeed, as the harm is considered too remote. The claim is founded on the Aquilian action, requiring proof of wrongfulness, fault, causation, and harm.",
+      "source": "Barnard v Santam Bpk 1999 (1) SA 202 (SCA)"
+    },
+    {
+      "id": "za-delict-002",
+      "input": "A newspaper publishes an article falsely stating that a well-known businessman has been declared insolvent. The businessman's bank subsequently reduces his credit facility. He sues the newspaper for defamation. The newspaper raises the defence of reasonable publication in the public interest. How should a South African court approach this defence following the Constitutional Court's decision in Khumalo v Holomisa (2002)?",
+      "target": "In Khumalo v Holomisa 2002 (5) SA 401 (CC), the Constitutional Court held that the law of defamation must be developed in accordance with the Constitution, particularly the right to freedom of expression (section 16) and the right to dignity (section 10). The Court confirmed the existing elements of defamation (publication, falsity, wrongfulness, fault) but held that the defence of reasonable publication is available where: (a) the publication is in the public interest; (b) the publisher exercised reasonable care by taking appropriate steps to verify the accuracy of the statement; (c) there was no malice; and (d) the manner of publication was proportionate. The onus is on the defendant to establish the defence. The court must weigh the importance of freedom of expression against the plaintiff's right to dignity in each case. A false statement published without any verification is unlikely to satisfy the defence, as the newspaper failed to take reasonable steps to verify the accuracy of the claim before publication.",
+      "source": "Khumalo v Holomisa 2002 (5) SA 401 (CC)"
+    },
+    {
+      "id": "za-delict-003",
+      "input": "A plaintiff sues the Minister of Police for damages, alleging that the police negligently failed to prevent a known criminal from harming the plaintiff. The police had received a specific tip-off that the criminal intended to attack the plaintiff but took no action. Under South African delictual law, does the police have a legal duty to prevent harm to a specific individual?",
+      "target": "The question is whether the police owed a legal duty to the plaintiff. Under South African delictual law, the existence of a legal duty is determined by considerations of policy and reasonableness, as developed in the light of constitutional values. In the landmark case of Minister of Safety and Security v Van Duivenboden 2002 (6) SA 431 (SCA), the Supreme Court of Appeal held that the police can be held liable for negligent failure to prevent harm where: (a) there was knowledge of a specific and imminent threat to a specific individual; (b) the police had the means and capacity to prevent the harm; (c) they failed to take reasonable steps; and (d) such failure was wrongful. The Court held that constitutional duties to protect the public, derived from sections 12 (freedom and security of the person) and 205(3) of the Constitution (objectives of the police service), inform the common law duty. The specific tip-off in this case would likely establish a legal duty, and the police's failure to act may be wrongful.",
+      "source": "Minister of Safety and Security v Van Duivenboden 2002 (6) SA 431 (SCA)"
+    }
+  ]
+}

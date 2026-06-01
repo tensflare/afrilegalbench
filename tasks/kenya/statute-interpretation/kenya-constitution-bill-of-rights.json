@@ -1,0 +1,27 @@
+{
+  "task_name": "kenya-constitution-bill-of-rights",
+  "jurisdiction": "kenya",
+  "legal_system": ["common_law"],
+  "reasoning_type": "rule_application",
+  "languages": ["en"],
+  "dataset": [
+    {
+      "id": "ke-const-001",
+      "input": "A citizen wishes to challenge a new law that restricts freedom of assembly during election periods. The citizen believes the law violates Article 37 of the Constitution. Under Kenyan constitutional law, what standing does the citizen have to bring the challenge, and what is the standard for limiting rights under Article 24?",
+      "target": "The citizen has broad standing under Article 22(1) of the Constitution, which provides that every person has the right to institute court proceedings claiming that a right or fundamental freedom has been denied, violated, infringed, or is threatened. Article 22(2) expands standing further to include persons acting on behalf of others, in the public interest, or on behalf of an association. Under Article 24(1), a right or fundamental freedom may be limited only by law, and only to the extent that the limitation is 'reasonable and justifiable in an open and democratic society based on human dignity, equality and freedom.' The court must consider all relevant factors including: (a) the nature of the right; (b) the importance of the limitation's purpose; (c) the nature and extent of the limitation; (d) the need to ensure that the enjoyment of rights by any individual does not prejudice the rights of others; and (e) whether there are less restrictive means to achieve the purpose. The limitation must also be proportional.",
+      "source": "Constitution of Kenya 2010, arts. 22, 24, 37"
+    },
+    {
+      "id": "ke-const-002",
+      "input": "A newspaper publishes a story alleging corruption by a government minister. The minister obtains a court order prohibiting further publication, arguing that the story infringes his right to privacy. The newspaper invokes freedom of the media under Article 34 of the Constitution. How should the court balance these competing rights?",
+      "target": "The court must balance the right to privacy (Article 31) and the right to freedom of the media (Article 34) in accordance with the principles of constitutional interpretation. Article 34(1) guarantees freedom of the media, which is essential to democratic governance and accountability. Article 31 protects the right to privacy, which includes the right not to have information relating to the person's family or private affairs published unnecessarily. Under Article 24, both rights may be limited if the limitation is reasonable and justifiable. The court should consider: (a) whether the information relates to the minister's private affairs or public duties — corruption allegations concern public duties and are thus matters of public interest; (b) whether the newspaper took steps to verify the accuracy of the information (Article 34(4) requires the media to be 'fair and impartial'); (c) whether there are less restrictive alternatives to a complete prohibition, such as allowing the minister to respond; and (d) the public interest in exposing corruption. A complete prohibition on publication is likely a disproportionate limitation on media freedom.",
+      "source": "Constitution of Kenya 2010, arts. 31, 34, 24"
+    },
+    {
+      "id": "ke-const-003",
+      "input": "A person with a disability is denied employment by a government agency, which states that the workplace is not accessible and modifications would be too expensive. The applicant argues that this violates their constitutional rights. What obligations does the State have under the Constitution regarding persons with disabilities?",
+      "target": "Article 54 of the Constitution specifically protects the rights of persons with disabilities. Article 54(1)(a) provides that a person with a disability is entitled to be treated with dignity and respect, and not to be subjected to abuse, harassment, or unfair discrimination. Article 54(2) requires the State to ensure the progressive realisation of the right of persons with disabilities to reasonable access to all places, public transport, and information. Under Article 21(2)-(3), the State has a duty to take legislative, policy, and other measures to achieve the progressive realisation of the rights guaranteed under the Constitution, and all State organs must address the needs of vulnerable groups including persons with disabilities. The denial of employment solely on the basis of the cost of modifications may constitute unfair discrimination under Article 27(4). The State has a duty to make reasonable accommodation for persons with disabilities, and the burden of proving that modifications would impose an unjustifiable hardship rests on the State.",
+      "source": "Constitution of Kenya 2010, arts. 21, 27, 54"
+    }
+  ]
+}
