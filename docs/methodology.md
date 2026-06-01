@@ -2,7 +2,7 @@
 
 ## Overview
 
-malawi-bench follows the same methodology as LegalBench (NeurIPS 2023) to ensure compatibility and comparability. Each task is a curated set of input-output pairs designed to test a specific legal reasoning capability.
+AfriLegalBench follows the same methodology as LegalBench (NeurIPS 2023) to ensure compatibility and comparability. Each task is a curated set of input-output pairs designed to test a specific legal reasoning capability.
 
 ## Task construction
 

@@ -1,10 +1,10 @@
-# malawi-bench
+# AfriLegalBench
 
 **African Legal AI Benchmark** — evaluating LLM legal reasoning across African jurisdictions.
 
 LegalBench (NeurIPS 2023) explicitly acknowledges it "skews towards US Federal law," has "no multilingual or non-English tasks," and excludes other jurisdictions. Harvey's LAB (2026) is also US/UK focused. No benchmark exists for any of Africa's 54 jurisdictions.
 
-malawi-bench fills that gap.
+AfriLegalBench fills that gap.
 
 ## Scope (Phase 1)
 
